@@ -42,13 +42,6 @@ int main(){
         FILE *fp = popen("gnuplot -persist", "w");
         fprintf(fp, "plot \"puntos_dos_dados.txt\" with lines\n");   
 
-
-
-
-
-
-
-
     //PLOTTING DE LOS VALORES ESPERADOS DE LOS DOS DADOS
     return 0;
 }
