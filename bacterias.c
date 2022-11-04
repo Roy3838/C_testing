@@ -2,6 +2,8 @@
 #include <time.h>
 #include <stdlib.h>
 #include <math.h>
+
+
 int main(){
     int N = 1000;
     // in MATLAB su=[1 randi(2,1,N)]-1
@@ -28,15 +30,15 @@ int main(){
 
     // MATLAB code expValnum = [sum(su(1:100)) sum(su(1:1000)) sum(su(1:10000))];
     // C code
-    int expValnum[3];
-    for (int i=0; i<3; i++){
-        int sum = 0;
-        double power=pow(10,i+1);
-        for (int j=0; j<power; j++){
-            sum += su[j];
-        }
-        expValnum[i] = sum;
-    }
+    // int expValnum[3];
+    // for (int i=0; i<3; i++){
+    //     int sum = 0;
+    //     double power=pow(10,i+1);
+    //     for (int j=0; j<power; j++){
+    //         sum += su[j];
+    //     }
+    //     expValnum[i] = sum;
+    // }
 
 
 }
