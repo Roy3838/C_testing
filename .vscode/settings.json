@@ -7,6 +7,8 @@
         "unistd.h": "c",
         "random": "c",
         "cmath": "c",
-        "complex": "c"
+        "complex": "c",
+        "stdatomic.h": "c",
+        "hash_map": "c"
     }
 }

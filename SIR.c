@@ -38,24 +38,22 @@ int main(){
         R[i+1]=G*I[i]*dt + R[i];
     }
 
-    //Plotting FML :(
-
-    //PLOTTING DE LA FRECUENCIA RELATIVA A TRAVES DEL TIEMPO
-        FILE *fpPuntos=fopen("puntos1.txt","w"); // se crea un archivo de texto para guardar los valores del dado
+    //PLOTTING
+        FILE *fpPuntos=fopen("data/puntos1.txt","w"); 
         for (int i=1; i<N; i++){
             if (i%1==0){
                 fprintf(fpPuntos,"%f %f \n",t[i],S[i]);
             }
         }
         fclose(fpPuntos);
-        FILE *fp2Puntos=fopen("puntos2.txt","w"); // se crea un archivo de texto para guardar los valores del dado
+        FILE *fp2Puntos=fopen("data/puntos2.txt","w"); 
         for (int i=1; i<N; i++){
             if (i%1==0){
                 fprintf(fpPuntos,"%f %f \n",t[i],I[i]);
             }
         }
         fclose(fp2Puntos);
-        FILE *fp3Puntos=fopen("puntos3.txt","w"); // se crea un archivo de texto para guardar los valores del dado
+        FILE *fp3Puntos=fopen("data/puntos3.txt","w");
         for (int i=1; i<N; i++){
             if (i%1==0){
                 fprintf(fpPuntos,"%f %f \n",t[i],R[i]);
@@ -64,7 +62,7 @@ int main(){
 
     // plot both files with gnuplot
     FILE *fp = popen("gnuplot -persist", "w");
-    fprintf(fp, "plot \"puntos1.txt\" with lines, \"puntos2.txt\" with lines, \"puntos3.txt\" with lines \n");
+    fprintf(fp, "plot \"data/puntos1.txt\" with lines, \"data/puntos2.txt\" with lines, \"data/puntos3.txt\" with lines \n");
     
 
 
