@@ -8,13 +8,18 @@ import numpy as np
 # plot the data in data/exp.txt
 
 #plot the data
-plt.hist(pd.read_csv('data/exp.txt', sep='\t', header=None).values, bins=100, rwidth=0.7, density=True)
-#using rd
-plt.hist([rd.expovariate(1) for i in range(1000)], bins=100, rwidth=0.7, density=True)
-plt.show()
+# plt.hist(pd.read_csv('data/exp.txt', sep='\t', header=None).values, bins=100, rwidth=0.7, density=True)
+# #using rd
+# plt.hist([rd.expovariate(1) for i in range(1000)], bins=100, rwidth=0.7, density=True)
+# plt.show()
 
 # plot data in data/gamma.txt
-plt.hist(pd.read_csv('data/gamma.txt', sep='\t', header=None).values, bins=100, rwidth=0.9, density=True)
+
 #using rd
-plt.hist([np.random.gamma(1,2) for i in range(1000)], bins=100, rwidth=0.9, density=True)
+MATLABvalues=pd.read_csv('data/expMATLAB.csv', sep=',', header=None).values[0:10]
+print(MATLABvalues[0])
+plt.hist(MATLABvalues[0], bins=100, rwidth=0.9, density=True)
+plt.show()
+
+plt.hist(pd.read_csv('data/exp.txt', sep='\t', header=None).values, bins=100, rwidth=0.9, density=True,color='red')
 plt.show()

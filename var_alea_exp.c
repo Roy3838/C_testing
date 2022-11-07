@@ -3,15 +3,18 @@
 #include <math.h>
 
 // Acumulada de la distribucion Exponencial
-double F_x_exp_inv(double u,double lambda) {
-    return -log(1-u)/lambda;
+double F_x_exp_inv(double u,double mu) {
+    return -mu * log(u);
 }
 
-// Acumulada de la distribucion Gamma
-double F_x_gamma_inv(double u,double k,double theta) {
+// vals=gamrnd(a,b);
+double gamrnd(double a,double b) {
     double x = 0;
-    for (int i=0; i<k; i++) {
-        x += F_x_exp_inv(u,theta);
+    int contador=0;
+    for (int i=0; i<a; i++) {
+        x += F_x_exp_inv(i,b);
+        contador++;
+        printf("contador= %d", contador);
     }
     return x;
 }
@@ -20,23 +23,22 @@ int main(){
     /*
 
     GENERADOR DE NUMEROS ALEATORIOS UNIFORMES
-    
+
     */
 
     //PRNG number generator parameters
-    int a = pow(7,5);
-    int m = pow(2,31)-1;
-    int x_0 = 470211272/(a)%m;
-    //Numero de iteraciones generadas por el PRNG
-    int iterations = 1000;
-    int x[iterations];
+    double a = pow(7,5);
+    double m = pow(2,31)-1;
+    double x_0 = fmod(470211272/(a),m);
+    int iterations = 100;
+    double x[iterations];
     x[0] = x_0;
     double u_x[iterations];
     u_x[0] = x_0;
-    
+
     //Se generan los numeros aleatorios uniformes
     for(int i = 1; i < iterations; i++) {
-        x[i] = (a*x[i-1])%m;
+        x[i] = fmod(a*x[i-1],m);
         u_x[i] = (double)x[i]/m;
     }
     
@@ -49,25 +51,24 @@ int main(){
     */
 
 
-    double lambda = 1;
-    double k=1;
-    double theta=2;
+    double mu = 1;
+    double k=2;
     double u[iterations];
     double x_exp[iterations];
     double x_gamma[iterations];
-    // Se convierte el rango u_x de [-1,1] a [0,1]
-    for(int i = 0; i < iterations; i++) {
-        u[i] = (u_x[i]+1)/2;
-    }
 
     // Se distribuyen los numeros aleatorios en la distribucion exponencial
     for(int i = 1; i < iterations; i++) {
-        x_exp[i] = F_x_exp_inv(u[i] ,lambda);
+        x_exp[i] = F_x_exp_inv(u_x[i] ,mu);
     }
+
+    /*
+        DISTRIBUTION GAMMA 
+    */
 
     // Se distribuyen los numeros aleatorios en la distribucion gamma
     for(int i = 1; i < iterations; i++) {
-        x_gamma[i] = F_x_gamma_inv(u[i],k,theta);
+        x_gamma[i] = gamrnd(u_x[i], k);
     }
 
     /*
