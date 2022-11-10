@@ -4,16 +4,12 @@
 #include <time.h>
 #include <stdatomic.h>
 #include <pthread.h>
-#include <omp.h>
-
-
-
  
 int main()
 {
 
-void correr(){
-    int iter = 1000;
+int correr(){
+    int iter = 123;
     int pos[iter];
     pos[0] = 0;
 
@@ -23,11 +19,10 @@ void correr(){
         pos[i] = pos[i-1] + r;
     
     }
-    //return pos[iter-1];
+    return pos[iter-1];
 }
     
     int i;
-    pthread_t tid;
     clock_t start, end;
     double cpu_time_used;
     int N = 100;
@@ -37,8 +32,18 @@ void correr(){
 
     start = clock();
     for (i = 0; i < N; i++){
-        correr();
+        dist[i]=correr();
     }
+    // prom of dist
+    double sum = 0;
+    for (int i=0; i<N; i++){
+        sum += dist[i];
+    }
+    double prom = sum/N;
+    printf("%f\n", prom);
+
+
+    
 
     end = clock();
     cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;

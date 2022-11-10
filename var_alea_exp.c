@@ -7,17 +7,11 @@ double F_x_exp_inv(double u,double mu) {
     return -mu * log(u);
 }
 
-// vals=gamrnd(a,b);
-double gamrnd(double a,double b) {
-    double x = 0;
-    int contador=0;
-    for (int i=0; i<a; i++) {
-        x += F_x_exp_inv(i,b);
-        contador++;
-        printf("contador= %d", contador);
-    }
-    return x;
-}
+// IN MATLAB vals=gamrnd(a,b);
+// IN C
+
+
+
 
 int main(){
     /*
@@ -52,7 +46,8 @@ int main(){
 
 
     double mu = 1;
-    double k=2;
+    double k=1;
+    double alpha = 1;
     double u[iterations];
     double x_exp[iterations];
     double x_gamma[iterations];
@@ -68,7 +63,7 @@ int main(){
 
     // Se distribuyen los numeros aleatorios en la distribucion gamma
     for(int i = 1; i < iterations; i++) {
-        x_gamma[i] = gamrnd(u_x[i], k);
+        x_gamma[i] = gamrnd_u(k,alpha,u_x[i]);
     }
 
     /*

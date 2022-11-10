@@ -4,11 +4,11 @@
 
 
 int main(){
-    double S0 = 997;
-    double I0 = 3;
+    double S0 = 998;
+    double I0 = 1;
     double R0 = 0;
-    double B = 0.25;
-    double G = 0.05;
+    double B = 0.2;
+    double G = 0.1;
     double T = 100;
     double dt = 0.1;
     int NT = T/dt;
