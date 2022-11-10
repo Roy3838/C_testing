@@ -1,0 +1,2481 @@
+estocasticos/NetLogo 6.3.0/Behaviorsearch
+estocasticos/NetLogo 6.3.0/HubNetClient
+estocasticos/NetLogo 6.3.0/NetLogo
+estocasticos/NetLogo 6.3.0/NetLogo User Manual.pdf
+estocasticos/NetLogo 6.3.0/NetLogo_Console
+estocasticos/NetLogo 6.3.0/netlogo-gui.sh
+estocasticos/NetLogo 6.3.0/netlogo-headless.sh
+estocasticos/NetLogo 6.3.0/NetLogo3D
+estocasticos/NetLogo 6.3.0/readme.md
+estocasticos/NetLogo 6.3.0/Mathematica Link/mathematica-link.jar
+estocasticos/NetLogo 6.3.0/Mathematica Link/NetLogo-Mathematica Tutorial.nb
+estocasticos/NetLogo 6.3.0/Mathematica Link/NetLogo-Mathematica Tutorial.pdf
+estocasticos/NetLogo 6.3.0/Mathematica Link/NetLogo.m
+estocasticos/NetLogo 6.3.0/behaviorsearch/behaviorsearch_headless.sh
+estocasticos/NetLogo 6.3.0/behaviorsearch/CREDITS.TXT
+estocasticos/NetLogo 6.3.0/behaviorsearch/LICENSE.TXT
+estocasticos/NetLogo 6.3.0/behaviorsearch/README.TXT
+estocasticos/NetLogo 6.3.0/behaviorsearch/RELEASE_NOTES.TXT
+estocasticos/NetLogo 6.3.0/behaviorsearch/documentation/docs.css
+estocasticos/NetLogo 6.3.0/behaviorsearch/documentation/tutorialFx.html
+estocasticos/NetLogo 6.3.0/behaviorsearch/documentation/img/command_line_usage.png
+estocasticos/NetLogo 6.3.0/behaviorsearch/documentation/img/flocking_fitnessspecFx.png
+estocasticos/NetLogo 6.3.0/behaviorsearch/documentation/img/flocking_modelruninfoFx.png
+estocasticos/NetLogo 6.3.0/behaviorsearch/documentation/img/flocking_runoptionsdialogFx.png
+estocasticos/NetLogo 6.3.0/behaviorsearch/documentation/img/flocking_searchalgorithmoptionsFx.png
+estocasticos/NetLogo 6.3.0/behaviorsearch/documentation/img/flocking_searchprogressplotFx.png
+estocasticos/NetLogo 6.3.0/behaviorsearch/documentation/img/flocking_searchspecFx.png
+estocasticos/NetLogo 6.3.0/behaviorsearch/documentation/img/guiFx_tabHighLight.png
+estocasticos/NetLogo 6.3.0/behaviorsearch/documentation/img/guiFx.png
+estocasticos/NetLogo 6.3.0/behaviorsearch/documentation/img/icon_behaviorsearch_sm.png
+estocasticos/NetLogo 6.3.0/behaviorsearch/documentation/img/icon_behaviorsearch.png
+estocasticos/NetLogo 6.3.0/behaviorsearch/examples/Example_Fire_Burn_Variance.bsearch
+estocasticos/NetLogo 6.3.0/behaviorsearch/examples/Example_Fire_Derivative.bsearch
+estocasticos/NetLogo 6.3.0/behaviorsearch/examples/Example_Flocking_Convergence.bsearch
+estocasticos/NetLogo 6.3.0/behaviorsearch/resources/behaviorsearch_model.ico
+estocasticos/NetLogo 6.3.0/behaviorsearch/resources/behaviorsearch.dtd
+estocasticos/NetLogo 6.3.0/behaviorsearch/resources/Behaviorsearch.icns
+estocasticos/NetLogo 6.3.0/behaviorsearch/resources/Behaviorsearch.ico
+estocasticos/NetLogo 6.3.0/behaviorsearch/resources/ChromosomeTypeList.txt
+estocasticos/NetLogo 6.3.0/behaviorsearch/resources/defaultNewSearch.xml
+estocasticos/NetLogo 6.3.0/behaviorsearch/resources/icon_behaviorsearch.png
+estocasticos/NetLogo 6.3.0/behaviorsearch/resources/icon_behaviorsearch.svg
+estocasticos/NetLogo 6.3.0/behaviorsearch/resources/icon_behaviorsearch64.ico
+estocasticos/NetLogo 6.3.0/behaviorsearch/resources/icon_behaviorsearch256.ico
+estocasticos/NetLogo 6.3.0/behaviorsearch/resources/icon_setup.ico
+estocasticos/NetLogo 6.3.0/behaviorsearch/resources/SearchMethodList.txt
+estocasticos/NetLogo 6.3.0/bin/Behaviorsearch
+estocasticos/NetLogo 6.3.0/bin/HubNetClient
+estocasticos/NetLogo 6.3.0/bin/NetLogo
+estocasticos/NetLogo 6.3.0/bin/NetLogo3D
+estocasticos/NetLogo 6.3.0/docs/3d.html
+estocasticos/NetLogo 6.3.0/docs/arduino.html
+estocasticos/NetLogo 6.3.0/docs/array.html
+estocasticos/NetLogo 6.3.0/docs/behaviorspace.html
+estocasticos/NetLogo 6.3.0/docs/bitmap.html
+estocasticos/NetLogo 6.3.0/docs/codetab.html
+estocasticos/NetLogo 6.3.0/docs/contact.html
+estocasticos/NetLogo 6.3.0/docs/controlling.html
+estocasticos/NetLogo 6.3.0/docs/copyright.html
+estocasticos/NetLogo 6.3.0/docs/csv.html
+estocasticos/NetLogo 6.3.0/docs/diccionario.pdf
+estocasticos/NetLogo 6.3.0/docs/dictionary.html
+estocasticos/NetLogo 6.3.0/docs/extension-authoring.html
+estocasticos/NetLogo 6.3.0/docs/extension-manager.html
+estocasticos/NetLogo 6.3.0/docs/extensions.html
+estocasticos/NetLogo 6.3.0/docs/faq.html
+estocasticos/NetLogo 6.3.0/docs/gis.html
+estocasticos/NetLogo 6.3.0/docs/gogo.html
+estocasticos/NetLogo 6.3.0/docs/GPL-2.txt
+estocasticos/NetLogo 6.3.0/docs/header.html
+estocasticos/NetLogo 6.3.0/docs/headings.html
+estocasticos/NetLogo 6.3.0/docs/hubnet-authoring.html
+estocasticos/NetLogo 6.3.0/docs/hubnet.html
+estocasticos/NetLogo 6.3.0/docs/index.html
+estocasticos/NetLogo 6.3.0/docs/index2.html
+estocasticos/NetLogo 6.3.0/docs/infotab.html
+estocasticos/NetLogo 6.3.0/docs/interface.html
+estocasticos/NetLogo 6.3.0/docs/interfacetab.html
+estocasticos/NetLogo 6.3.0/docs/LGPL-2.1.txt
+estocasticos/NetLogo 6.3.0/docs/LGPL-3.txt
+estocasticos/NetLogo 6.3.0/docs/logging.html
+estocasticos/NetLogo 6.3.0/docs/ls.html
+estocasticos/NetLogo 6.3.0/docs/mathematica.html
+estocasticos/NetLogo 6.3.0/docs/matrix.html
+estocasticos/NetLogo 6.3.0/docs/modelingcommons.html
+estocasticos/NetLogo 6.3.0/docs/netlogo.css
+estocasticos/NetLogo 6.3.0/docs/netlogolab.html
+estocasticos/NetLogo 6.3.0/docs/nw.html
+estocasticos/NetLogo 6.3.0/docs/palette.html
+estocasticos/NetLogo 6.3.0/docs/Perspective Example.png
+estocasticos/NetLogo 6.3.0/docs/profiler.html
+estocasticos/NetLogo 6.3.0/docs/programming.html
+estocasticos/NetLogo 6.3.0/docs/py.html
+estocasticos/NetLogo 6.3.0/docs/r.html
+estocasticos/NetLogo 6.3.0/docs/requirements.html
+estocasticos/NetLogo 6.3.0/docs/rnd.html
+estocasticos/NetLogo 6.3.0/docs/sample.html
+estocasticos/NetLogo 6.3.0/docs/shapes.html
+estocasticos/NetLogo 6.3.0/docs/shapes.nlogo
+estocasticos/NetLogo 6.3.0/docs/sound.html
+estocasticos/NetLogo 6.3.0/docs/systemdynamics.html
+estocasticos/NetLogo 6.3.0/docs/table.html
+estocasticos/NetLogo 6.3.0/docs/time.html
+estocasticos/NetLogo 6.3.0/docs/transition.html
+estocasticos/NetLogo 6.3.0/docs/tutorial1.html
+estocasticos/NetLogo 6.3.0/docs/tutorial2.html
+estocasticos/NetLogo 6.3.0/docs/tutorial3.html
+estocasticos/NetLogo 6.3.0/docs/versions.html
+estocasticos/NetLogo 6.3.0/docs/vid.html
+estocasticos/NetLogo 6.3.0/docs/view2.5d.html
+estocasticos/NetLogo 6.3.0/docs/whatis.html
+estocasticos/NetLogo 6.3.0/docs/dict/abs.html
+estocasticos/NetLogo 6.3.0/docs/dict/acos.html
+estocasticos/NetLogo 6.3.0/docs/dict/all.html
+estocasticos/NetLogo 6.3.0/docs/dict/and.html
+estocasticos/NetLogo 6.3.0/docs/dict/any.html
+estocasticos/NetLogo 6.3.0/docs/dict/approximate-hsb.html
+estocasticos/NetLogo 6.3.0/docs/dict/approximate-rgb.html
+estocasticos/NetLogo 6.3.0/docs/dict/arrow.html
+estocasticos/NetLogo 6.3.0/docs/dict/asin.html
+estocasticos/NetLogo 6.3.0/docs/dict/ask-concurrent.html
+estocasticos/NetLogo 6.3.0/docs/dict/ask.html
+estocasticos/NetLogo 6.3.0/docs/dict/at-points-3d.html
+estocasticos/NetLogo 6.3.0/docs/dict/at-points.html
+estocasticos/NetLogo 6.3.0/docs/dict/atan.html
+estocasticos/NetLogo 6.3.0/docs/dict/auto-plot-status.html
+estocasticos/NetLogo 6.3.0/docs/dict/autoplot.html
+estocasticos/NetLogo 6.3.0/docs/dict/back.html
+estocasticos/NetLogo 6.3.0/docs/dict/base-colors.html
+estocasticos/NetLogo 6.3.0/docs/dict/beep.html
+estocasticos/NetLogo 6.3.0/docs/dict/behaviorspace-experiment-name.html
+estocasticos/NetLogo 6.3.0/docs/dict/behaviorspace-run-number.html
+estocasticos/NetLogo 6.3.0/docs/dict/boolconstants.html
+estocasticos/NetLogo 6.3.0/docs/dict/both-ends.html
+estocasticos/NetLogo 6.3.0/docs/dict/breed.html
+estocasticos/NetLogo 6.3.0/docs/dict/breedvar.html
+estocasticos/NetLogo 6.3.0/docs/dict/but-first-and-last.html
+estocasticos/NetLogo 6.3.0/docs/dict/can-move.html
+estocasticos/NetLogo 6.3.0/docs/dict/carefully.html
+estocasticos/NetLogo 6.3.0/docs/dict/ceiling.html
+estocasticos/NetLogo 6.3.0/docs/dict/clear-all-plots.html
+estocasticos/NetLogo 6.3.0/docs/dict/clear-all.html
+estocasticos/NetLogo 6.3.0/docs/dict/clear-drawing.html
+estocasticos/NetLogo 6.3.0/docs/dict/clear-globals.html
+estocasticos/NetLogo 6.3.0/docs/dict/clear-links.html
+estocasticos/NetLogo 6.3.0/docs/dict/clear-output.html
+estocasticos/NetLogo 6.3.0/docs/dict/clear-patches.html
+estocasticos/NetLogo 6.3.0/docs/dict/clear-plot.html
+estocasticos/NetLogo 6.3.0/docs/dict/clear-ticks.html
+estocasticos/NetLogo 6.3.0/docs/dict/clear-turtles.html
+estocasticos/NetLogo 6.3.0/docs/dict/color.html
+estocasticos/NetLogo 6.3.0/docs/dict/colorconstants.html
+estocasticos/NetLogo 6.3.0/docs/dict/cos.html
+estocasticos/NetLogo 6.3.0/docs/dict/count.html
+estocasticos/NetLogo 6.3.0/docs/dict/create-link.html
+estocasticos/NetLogo 6.3.0/docs/dict/create-ordered-turtles.html
+estocasticos/NetLogo 6.3.0/docs/dict/create-temporary-plot-pen.html
+estocasticos/NetLogo 6.3.0/docs/dict/create-turtles.html
+estocasticos/NetLogo 6.3.0/docs/dict/date-and-time.html
+estocasticos/NetLogo 6.3.0/docs/dict/die.html
+estocasticos/NetLogo 6.3.0/docs/dict/diffuse.html
+estocasticos/NetLogo 6.3.0/docs/dict/diffuse4.html
+estocasticos/NetLogo 6.3.0/docs/dict/directed-link-breed.html
+estocasticos/NetLogo 6.3.0/docs/dict/display.html
+estocasticos/NetLogo 6.3.0/docs/dict/distance-3d.html
+estocasticos/NetLogo 6.3.0/docs/dict/distance.html
+estocasticos/NetLogo 6.3.0/docs/dict/distancexy.html
+estocasticos/NetLogo 6.3.0/docs/dict/downhill.html
+estocasticos/NetLogo 6.3.0/docs/dict/dxy.html
+estocasticos/NetLogo 6.3.0/docs/dict/dz.html
+estocasticos/NetLogo 6.3.0/docs/dict/empty.html
+estocasticos/NetLogo 6.3.0/docs/dict/end.html
+estocasticos/NetLogo 6.3.0/docs/dict/end1.html
+estocasticos/NetLogo 6.3.0/docs/dict/end2.html
+estocasticos/NetLogo 6.3.0/docs/dict/error-message.html
+estocasticos/NetLogo 6.3.0/docs/dict/error.html
+estocasticos/NetLogo 6.3.0/docs/dict/every.html
+estocasticos/NetLogo 6.3.0/docs/dict/exp.html
+estocasticos/NetLogo 6.3.0/docs/dict/export-cmds.html
+estocasticos/NetLogo 6.3.0/docs/dict/extensions.html
+estocasticos/NetLogo 6.3.0/docs/dict/extract-hsb.html
+estocasticos/NetLogo 6.3.0/docs/dict/extract-rgb.html
+estocasticos/NetLogo 6.3.0/docs/dict/face-3d.html
+estocasticos/NetLogo 6.3.0/docs/dict/face.html
+estocasticos/NetLogo 6.3.0/docs/dict/facexy.html
+estocasticos/NetLogo 6.3.0/docs/dict/file-at-end.html
+estocasticos/NetLogo 6.3.0/docs/dict/file-close-all.html
+estocasticos/NetLogo 6.3.0/docs/dict/file-close.html
+estocasticos/NetLogo 6.3.0/docs/dict/file-delete.html
+estocasticos/NetLogo 6.3.0/docs/dict/file-exists.html
+estocasticos/NetLogo 6.3.0/docs/dict/file-flush.html
+estocasticos/NetLogo 6.3.0/docs/dict/file-open.html
+estocasticos/NetLogo 6.3.0/docs/dict/file-print.html
+estocasticos/NetLogo 6.3.0/docs/dict/file-read-characters.html
+estocasticos/NetLogo 6.3.0/docs/dict/file-read-line.html
+estocasticos/NetLogo 6.3.0/docs/dict/file-read.html
+estocasticos/NetLogo 6.3.0/docs/dict/file-show.html
+estocasticos/NetLogo 6.3.0/docs/dict/file-type.html
+estocasticos/NetLogo 6.3.0/docs/dict/file-write.html
+estocasticos/NetLogo 6.3.0/docs/dict/filter.html
+estocasticos/NetLogo 6.3.0/docs/dict/first.html
+estocasticos/NetLogo 6.3.0/docs/dict/floor.html
+estocasticos/NetLogo 6.3.0/docs/dict/follow-me.html
+estocasticos/NetLogo 6.3.0/docs/dict/follow.html
+estocasticos/NetLogo 6.3.0/docs/dict/foreach.html
+estocasticos/NetLogo 6.3.0/docs/dict/forward.html
+estocasticos/NetLogo 6.3.0/docs/dict/fput.html
+estocasticos/NetLogo 6.3.0/docs/dict/globals.html
+estocasticos/NetLogo 6.3.0/docs/dict/hatch.html
+estocasticos/NetLogo 6.3.0/docs/dict/heading.html
+estocasticos/NetLogo 6.3.0/docs/dict/hidden.html
+estocasticos/NetLogo 6.3.0/docs/dict/hide-link.html
+estocasticos/NetLogo 6.3.0/docs/dict/hide-turtle.html
+estocasticos/NetLogo 6.3.0/docs/dict/histogram.html
+estocasticos/NetLogo 6.3.0/docs/dict/home.html
+estocasticos/NetLogo 6.3.0/docs/dict/hsb.html
+estocasticos/NetLogo 6.3.0/docs/dict/hubnet-broadcast-clear-output.html
+estocasticos/NetLogo 6.3.0/docs/dict/hubnet-broadcast-message.html
+estocasticos/NetLogo 6.3.0/docs/dict/hubnet-broadcast.html
+estocasticos/NetLogo 6.3.0/docs/dict/hubnet-clear-override.html
+estocasticos/NetLogo 6.3.0/docs/dict/hubnet-clients-list.html
+estocasticos/NetLogo 6.3.0/docs/dict/hubnet-enter-message.html
+estocasticos/NetLogo 6.3.0/docs/dict/hubnet-exit-message.html
+estocasticos/NetLogo 6.3.0/docs/dict/hubnet-fetch-message.html
+estocasticos/NetLogo 6.3.0/docs/dict/hubnet-kick-all-clients.html
+estocasticos/NetLogo 6.3.0/docs/dict/hubnet-kick-client.html
+estocasticos/NetLogo 6.3.0/docs/dict/hubnet-message-source.html
+estocasticos/NetLogo 6.3.0/docs/dict/hubnet-message-tag.html
+estocasticos/NetLogo 6.3.0/docs/dict/hubnet-message-waiting.html
+estocasticos/NetLogo 6.3.0/docs/dict/hubnet-message.html
+estocasticos/NetLogo 6.3.0/docs/dict/hubnet-reset-perspective.html
+estocasticos/NetLogo 6.3.0/docs/dict/hubnet-reset.html
+estocasticos/NetLogo 6.3.0/docs/dict/hubnet-send-clear-output.html
+estocasticos/NetLogo 6.3.0/docs/dict/hubnet-send-follow.html
+estocasticos/NetLogo 6.3.0/docs/dict/hubnet-send-message.html
+estocasticos/NetLogo 6.3.0/docs/dict/hubnet-send-override.html
+estocasticos/NetLogo 6.3.0/docs/dict/hubnet-send-watch.html
+estocasticos/NetLogo 6.3.0/docs/dict/hubnet-send.html
+estocasticos/NetLogo 6.3.0/docs/dict/if.html
+estocasticos/NetLogo 6.3.0/docs/dict/ifelse-value.html
+estocasticos/NetLogo 6.3.0/docs/dict/ifelse.html
+estocasticos/NetLogo 6.3.0/docs/dict/import-drawing.html
+estocasticos/NetLogo 6.3.0/docs/dict/import-pcolors-rgb.html
+estocasticos/NetLogo 6.3.0/docs/dict/import-pcolors.html
+estocasticos/NetLogo 6.3.0/docs/dict/import-world.html
+estocasticos/NetLogo 6.3.0/docs/dict/in-cone.html
+estocasticos/NetLogo 6.3.0/docs/dict/in-link-from.html
+estocasticos/NetLogo 6.3.0/docs/dict/in-link-neighbor.html
+estocasticos/NetLogo 6.3.0/docs/dict/in-link-neighbors.html
+estocasticos/NetLogo 6.3.0/docs/dict/in-radius.html
+estocasticos/NetLogo 6.3.0/docs/dict/includes.html
+estocasticos/NetLogo 6.3.0/docs/dict/insert-item.html
+estocasticos/NetLogo 6.3.0/docs/dict/inspect.html
+estocasticos/NetLogo 6.3.0/docs/dict/int.html
+estocasticos/NetLogo 6.3.0/docs/dict/is-of-type.html
+estocasticos/NetLogo 6.3.0/docs/dict/item.html
+estocasticos/NetLogo 6.3.0/docs/dict/jump.html
+estocasticos/NetLogo 6.3.0/docs/dict/label-color.html
+estocasticos/NetLogo 6.3.0/docs/dict/label.html
+estocasticos/NetLogo 6.3.0/docs/dict/last.html
+estocasticos/NetLogo 6.3.0/docs/dict/layout-circle.html
+estocasticos/NetLogo 6.3.0/docs/dict/layout-radial.html
+estocasticos/NetLogo 6.3.0/docs/dict/layout-spring.html
+estocasticos/NetLogo 6.3.0/docs/dict/layout-tutte.html
+estocasticos/NetLogo 6.3.0/docs/dict/left.html
+estocasticos/NetLogo 6.3.0/docs/dict/length.html
+estocasticos/NetLogo 6.3.0/docs/dict/let.html
+estocasticos/NetLogo 6.3.0/docs/dict/link-heading.html
+estocasticos/NetLogo 6.3.0/docs/dict/link-length.html
+estocasticos/NetLogo 6.3.0/docs/dict/link-neighbor.html
+estocasticos/NetLogo 6.3.0/docs/dict/link-neighbors.html
+estocasticos/NetLogo 6.3.0/docs/dict/link-pitch.html
+estocasticos/NetLogo 6.3.0/docs/dict/link-set.html
+estocasticos/NetLogo 6.3.0/docs/dict/link-shapes.html
+estocasticos/NetLogo 6.3.0/docs/dict/link-with.html
+estocasticos/NetLogo 6.3.0/docs/dict/link.html
+estocasticos/NetLogo 6.3.0/docs/dict/links-own.html
+estocasticos/NetLogo 6.3.0/docs/dict/links.html
+estocasticos/NetLogo 6.3.0/docs/dict/list.html
+estocasticos/NetLogo 6.3.0/docs/dict/ln.html
+estocasticos/NetLogo 6.3.0/docs/dict/load-shapes-3d.html
+estocasticos/NetLogo 6.3.0/docs/dict/log.html
+estocasticos/NetLogo 6.3.0/docs/dict/loop.html
+estocasticos/NetLogo 6.3.0/docs/dict/lput.html
+estocasticos/NetLogo 6.3.0/docs/dict/map.html
+estocasticos/NetLogo 6.3.0/docs/dict/mathconstants.html
+estocasticos/NetLogo 6.3.0/docs/dict/max-n-of.html
+estocasticos/NetLogo 6.3.0/docs/dict/max-one-of.html
+estocasticos/NetLogo 6.3.0/docs/dict/max-pcor.html
+estocasticos/NetLogo 6.3.0/docs/dict/max.html
+estocasticos/NetLogo 6.3.0/docs/dict/mean.html
+estocasticos/NetLogo 6.3.0/docs/dict/median.html
+estocasticos/NetLogo 6.3.0/docs/dict/member.html
+estocasticos/NetLogo 6.3.0/docs/dict/min-max-pzcor.html
+estocasticos/NetLogo 6.3.0/docs/dict/min-n-of.html
+estocasticos/NetLogo 6.3.0/docs/dict/min-one-of.html
+estocasticos/NetLogo 6.3.0/docs/dict/min-pcor.html
+estocasticos/NetLogo 6.3.0/docs/dict/min.html
+estocasticos/NetLogo 6.3.0/docs/dict/mod.html
+estocasticos/NetLogo 6.3.0/docs/dict/modes.html
+estocasticos/NetLogo 6.3.0/docs/dict/mouse-cor.html
+estocasticos/NetLogo 6.3.0/docs/dict/mouse-down.html
+estocasticos/NetLogo 6.3.0/docs/dict/mouse-inside.html
+estocasticos/NetLogo 6.3.0/docs/dict/move-to.html
+estocasticos/NetLogo 6.3.0/docs/dict/my-in-links.html
+estocasticos/NetLogo 6.3.0/docs/dict/my-links.html
+estocasticos/NetLogo 6.3.0/docs/dict/my-out-links.html
+estocasticos/NetLogo 6.3.0/docs/dict/myself.html
+estocasticos/NetLogo 6.3.0/docs/dict/n-of.html
+estocasticos/NetLogo 6.3.0/docs/dict/n-values.html
+estocasticos/NetLogo 6.3.0/docs/dict/neighbors-3d.html
+estocasticos/NetLogo 6.3.0/docs/dict/neighbors.html
+estocasticos/NetLogo 6.3.0/docs/dict/netlogo-version.html
+estocasticos/NetLogo 6.3.0/docs/dict/netlogo-web.html
+estocasticos/NetLogo 6.3.0/docs/dict/new-seed.html
+estocasticos/NetLogo 6.3.0/docs/dict/no-display.html
+estocasticos/NetLogo 6.3.0/docs/dict/no-links.html
+estocasticos/NetLogo 6.3.0/docs/dict/no-patches.html
+estocasticos/NetLogo 6.3.0/docs/dict/no-turtles.html
+estocasticos/NetLogo 6.3.0/docs/dict/nobody.html
+estocasticos/NetLogo 6.3.0/docs/dict/not.html
+estocasticos/NetLogo 6.3.0/docs/dict/observer-cors.html
+estocasticos/NetLogo 6.3.0/docs/dict/of.html
+estocasticos/NetLogo 6.3.0/docs/dict/one-of.html
+estocasticos/NetLogo 6.3.0/docs/dict/or.html
+estocasticos/NetLogo 6.3.0/docs/dict/orbit-cmds.html
+estocasticos/NetLogo 6.3.0/docs/dict/other-end.html
+estocasticos/NetLogo 6.3.0/docs/dict/other.html
+estocasticos/NetLogo 6.3.0/docs/dict/out-link-neighbor.html
+estocasticos/NetLogo 6.3.0/docs/dict/out-link-neighbors.html
+estocasticos/NetLogo 6.3.0/docs/dict/out-link-to.html
+estocasticos/NetLogo 6.3.0/docs/dict/output-cmds.html
+estocasticos/NetLogo 6.3.0/docs/dict/patch-ahead.html
+estocasticos/NetLogo 6.3.0/docs/dict/patch-at-3d.html
+estocasticos/NetLogo 6.3.0/docs/dict/patch-at-heading-and-distance.html
+estocasticos/NetLogo 6.3.0/docs/dict/patch-at-heading-pitch-and-distance.html
+estocasticos/NetLogo 6.3.0/docs/dict/patch-at.html
+estocasticos/NetLogo 6.3.0/docs/dict/patch-here.html
+estocasticos/NetLogo 6.3.0/docs/dict/patch-lr-and-ahead.html
+estocasticos/NetLogo 6.3.0/docs/dict/patch-set.html
+estocasticos/NetLogo 6.3.0/docs/dict/patch-size.html
+estocasticos/NetLogo 6.3.0/docs/dict/patch.html
+estocasticos/NetLogo 6.3.0/docs/dict/patches-own.html
+estocasticos/NetLogo 6.3.0/docs/dict/patches.html
+estocasticos/NetLogo 6.3.0/docs/dict/pcolor.html
+estocasticos/NetLogo 6.3.0/docs/dict/pcor.html
+estocasticos/NetLogo 6.3.0/docs/dict/pen-mode.html
+estocasticos/NetLogo 6.3.0/docs/dict/pen-size.html
+estocasticos/NetLogo 6.3.0/docs/dict/pen-switch-status.html
+estocasticos/NetLogo 6.3.0/docs/dict/pitch.html
+estocasticos/NetLogo 6.3.0/docs/dict/plabel-color.html
+estocasticos/NetLogo 6.3.0/docs/dict/plabel.html
+estocasticos/NetLogo 6.3.0/docs/dict/plot-cor-max-or-min.html
+estocasticos/NetLogo 6.3.0/docs/dict/plot-name.html
+estocasticos/NetLogo 6.3.0/docs/dict/plot-pen-exists.html
+estocasticos/NetLogo 6.3.0/docs/dict/plot-pen-reset.html
+estocasticos/NetLogo 6.3.0/docs/dict/plot-pen-switch-status.html
+estocasticos/NetLogo 6.3.0/docs/dict/plot.html
+estocasticos/NetLogo 6.3.0/docs/dict/plotxy.html
+estocasticos/NetLogo 6.3.0/docs/dict/position.html
+estocasticos/NetLogo 6.3.0/docs/dict/precision.html
+estocasticos/NetLogo 6.3.0/docs/dict/print.html
+estocasticos/NetLogo 6.3.0/docs/dict/pzcor.html
+estocasticos/NetLogo 6.3.0/docs/dict/random-cor.html
+estocasticos/NetLogo 6.3.0/docs/dict/random-float.html
+estocasticos/NetLogo 6.3.0/docs/dict/random-pcor.html
+estocasticos/NetLogo 6.3.0/docs/dict/random-pzcor.html
+estocasticos/NetLogo 6.3.0/docs/dict/random-reporters.html
+estocasticos/NetLogo 6.3.0/docs/dict/random-seed.html
+estocasticos/NetLogo 6.3.0/docs/dict/random-zcor.html
+estocasticos/NetLogo 6.3.0/docs/dict/random.html
+estocasticos/NetLogo 6.3.0/docs/dict/range.html
+estocasticos/NetLogo 6.3.0/docs/dict/read-from-string.html
+estocasticos/NetLogo 6.3.0/docs/dict/reduce.html
+estocasticos/NetLogo 6.3.0/docs/dict/remainder.html
+estocasticos/NetLogo 6.3.0/docs/dict/remove-duplicates.html
+estocasticos/NetLogo 6.3.0/docs/dict/remove-item.html
+estocasticos/NetLogo 6.3.0/docs/dict/remove.html
+estocasticos/NetLogo 6.3.0/docs/dict/repeat.html
+estocasticos/NetLogo 6.3.0/docs/dict/replace-item.html
+estocasticos/NetLogo 6.3.0/docs/dict/report.html
+estocasticos/NetLogo 6.3.0/docs/dict/reset-perspective.html
+estocasticos/NetLogo 6.3.0/docs/dict/reset-ticks.html
+estocasticos/NetLogo 6.3.0/docs/dict/reset-timer.html
+estocasticos/NetLogo 6.3.0/docs/dict/resize-world.html
+estocasticos/NetLogo 6.3.0/docs/dict/reverse.html
+estocasticos/NetLogo 6.3.0/docs/dict/rgb.html
+estocasticos/NetLogo 6.3.0/docs/dict/ride-me.html
+estocasticos/NetLogo 6.3.0/docs/dict/ride.html
+estocasticos/NetLogo 6.3.0/docs/dict/right.html
+estocasticos/NetLogo 6.3.0/docs/dict/roll-left.html
+estocasticos/NetLogo 6.3.0/docs/dict/roll-right.html
+estocasticos/NetLogo 6.3.0/docs/dict/roll.html
+estocasticos/NetLogo 6.3.0/docs/dict/round.html
+estocasticos/NetLogo 6.3.0/docs/dict/run.html
+estocasticos/NetLogo 6.3.0/docs/dict/scale-color.html
+estocasticos/NetLogo 6.3.0/docs/dict/self.html
+estocasticos/NetLogo 6.3.0/docs/dict/semicolon.html
+estocasticos/NetLogo 6.3.0/docs/dict/sentence.html
+estocasticos/NetLogo 6.3.0/docs/dict/set-current-directory.html
+estocasticos/NetLogo 6.3.0/docs/dict/set-current-plot-pen.html
+estocasticos/NetLogo 6.3.0/docs/dict/set-current-plot.html
+estocasticos/NetLogo 6.3.0/docs/dict/set-default-shape.html
+estocasticos/NetLogo 6.3.0/docs/dict/set-histogram-num-bars.html
+estocasticos/NetLogo 6.3.0/docs/dict/set-line-thickness.html
+estocasticos/NetLogo 6.3.0/docs/dict/set-patch-size.html
+estocasticos/NetLogo 6.3.0/docs/dict/set-plot--range.html
+estocasticos/NetLogo 6.3.0/docs/dict/set-plot-background-color.html
+estocasticos/NetLogo 6.3.0/docs/dict/set-plot-pen-color.html
+estocasticos/NetLogo 6.3.0/docs/dict/set-plot-pen-interval.html
+estocasticos/NetLogo 6.3.0/docs/dict/set-plot-pen-mode.html
+estocasticos/NetLogo 6.3.0/docs/dict/set.html
+estocasticos/NetLogo 6.3.0/docs/dict/setup-plots.html
+estocasticos/NetLogo 6.3.0/docs/dict/setxy.html
+estocasticos/NetLogo 6.3.0/docs/dict/setxyz.html
+estocasticos/NetLogo 6.3.0/docs/dict/shade-of.html
+estocasticos/NetLogo 6.3.0/docs/dict/shape.html
+estocasticos/NetLogo 6.3.0/docs/dict/shapes.html
+estocasticos/NetLogo 6.3.0/docs/dict/show-link.html
+estocasticos/NetLogo 6.3.0/docs/dict/show-turtle.html
+estocasticos/NetLogo 6.3.0/docs/dict/show.html
+estocasticos/NetLogo 6.3.0/docs/dict/shuffle.html
+estocasticos/NetLogo 6.3.0/docs/dict/sin.html
+estocasticos/NetLogo 6.3.0/docs/dict/size.html
+estocasticos/NetLogo 6.3.0/docs/dict/sort-by.html
+estocasticos/NetLogo 6.3.0/docs/dict/sort-on.html
+estocasticos/NetLogo 6.3.0/docs/dict/sort.html
+estocasticos/NetLogo 6.3.0/docs/dict/sprout.html
+estocasticos/NetLogo 6.3.0/docs/dict/sqrt.html
+estocasticos/NetLogo 6.3.0/docs/dict/stamp-erase.html
+estocasticos/NetLogo 6.3.0/docs/dict/stamp.html
+estocasticos/NetLogo 6.3.0/docs/dict/standard-deviation.html
+estocasticos/NetLogo 6.3.0/docs/dict/startup.html
+estocasticos/NetLogo 6.3.0/docs/dict/stop-inspecting-dead-agents.html
+estocasticos/NetLogo 6.3.0/docs/dict/stop-inspecting.html
+estocasticos/NetLogo 6.3.0/docs/dict/stop.html
+estocasticos/NetLogo 6.3.0/docs/dict/subject.html
+estocasticos/NetLogo 6.3.0/docs/dict/subliststring.html
+estocasticos/NetLogo 6.3.0/docs/dict/subtract-headings.html
+estocasticos/NetLogo 6.3.0/docs/dict/sum.html
+estocasticos/NetLogo 6.3.0/docs/dict/Symbols.html
+estocasticos/NetLogo 6.3.0/docs/dict/tan.html
+estocasticos/NetLogo 6.3.0/docs/dict/thickness.html
+estocasticos/NetLogo 6.3.0/docs/dict/tick-advance.html
+estocasticos/NetLogo 6.3.0/docs/dict/tick.html
+estocasticos/NetLogo 6.3.0/docs/dict/ticks.html
+estocasticos/NetLogo 6.3.0/docs/dict/tie-mode.html
+estocasticos/NetLogo 6.3.0/docs/dict/tie.html
+estocasticos/NetLogo 6.3.0/docs/dict/tilt-cmds.html
+estocasticos/NetLogo 6.3.0/docs/dict/timer.html
+estocasticos/NetLogo 6.3.0/docs/dict/to-report.html
+estocasticos/NetLogo 6.3.0/docs/dict/to.html
+estocasticos/NetLogo 6.3.0/docs/dict/towards-pitch-cmd.html
+estocasticos/NetLogo 6.3.0/docs/dict/towards-pitch-xyz-cmd.html
+estocasticos/NetLogo 6.3.0/docs/dict/towards.html
+estocasticos/NetLogo 6.3.0/docs/dict/towardsxy.html
+estocasticos/NetLogo 6.3.0/docs/dict/turtle-set.html
+estocasticos/NetLogo 6.3.0/docs/dict/turtle.html
+estocasticos/NetLogo 6.3.0/docs/dict/turtles-at-3d.html
+estocasticos/NetLogo 6.3.0/docs/dict/turtles-at.html
+estocasticos/NetLogo 6.3.0/docs/dict/turtles-here.html
+estocasticos/NetLogo 6.3.0/docs/dict/turtles-on.html
+estocasticos/NetLogo 6.3.0/docs/dict/turtles-own.html
+estocasticos/NetLogo 6.3.0/docs/dict/turtles.html
+estocasticos/NetLogo 6.3.0/docs/dict/type.html
+estocasticos/NetLogo 6.3.0/docs/dict/undirected-link-breed.html
+estocasticos/NetLogo 6.3.0/docs/dict/untie.html
+estocasticos/NetLogo 6.3.0/docs/dict/up-to-n-of.html
+estocasticos/NetLogo 6.3.0/docs/dict/update-plots.html
+estocasticos/NetLogo 6.3.0/docs/dict/uphill.html
+estocasticos/NetLogo 6.3.0/docs/dict/user-directory.html
+estocasticos/NetLogo 6.3.0/docs/dict/user-file.html
+estocasticos/NetLogo 6.3.0/docs/dict/user-input.html
+estocasticos/NetLogo 6.3.0/docs/dict/user-message.html
+estocasticos/NetLogo 6.3.0/docs/dict/user-new-file.html
+estocasticos/NetLogo 6.3.0/docs/dict/user-one-of.html
+estocasticos/NetLogo 6.3.0/docs/dict/user-yes-or-no.html
+estocasticos/NetLogo 6.3.0/docs/dict/variance.html
+estocasticos/NetLogo 6.3.0/docs/dict/wait.html
+estocasticos/NetLogo 6.3.0/docs/dict/watch-me.html
+estocasticos/NetLogo 6.3.0/docs/dict/watch.html
+estocasticos/NetLogo 6.3.0/docs/dict/while.html
+estocasticos/NetLogo 6.3.0/docs/dict/who.html
+estocasticos/NetLogo 6.3.0/docs/dict/with-local-randomness.html
+estocasticos/NetLogo 6.3.0/docs/dict/with-max.html
+estocasticos/NetLogo 6.3.0/docs/dict/with-min.html
+estocasticos/NetLogo 6.3.0/docs/dict/with.html
+estocasticos/NetLogo 6.3.0/docs/dict/without-interruption.html
+estocasticos/NetLogo 6.3.0/docs/dict/word.html
+estocasticos/NetLogo 6.3.0/docs/dict/world-depth.html
+estocasticos/NetLogo 6.3.0/docs/dict/world-dim.html
+estocasticos/NetLogo 6.3.0/docs/dict/wrap-color.html
+estocasticos/NetLogo 6.3.0/docs/dict/write.html
+estocasticos/NetLogo 6.3.0/docs/dict/xcor.html
+estocasticos/NetLogo 6.3.0/docs/dict/xor.html
+estocasticos/NetLogo 6.3.0/docs/dict/ycor.html
+estocasticos/NetLogo 6.3.0/docs/dict/zcor.html
+estocasticos/NetLogo 6.3.0/docs/dict/zoom.html
+estocasticos/NetLogo 6.3.0/docs/images/cc-by-sa-3.0.png
+estocasticos/NetLogo 6.3.0/docs/images/colors.jpg
+estocasticos/NetLogo 6.3.0/docs/images/file-menu.gif
+estocasticos/NetLogo 6.3.0/docs/images/intersecting-polygons.png
+estocasticos/NetLogo 6.3.0/docs/images/link.gif
+estocasticos/NetLogo 6.3.0/docs/images/observer.gif
+estocasticos/NetLogo 6.3.0/docs/images/patch.gif
+estocasticos/NetLogo 6.3.0/docs/images/rstop.jpg
+estocasticos/NetLogo 6.3.0/docs/images/set-transformation-ds.png
+estocasticos/NetLogo 6.3.0/docs/images/set-transformation.png
+estocasticos/NetLogo 6.3.0/docs/images/title.jpg
+estocasticos/NetLogo 6.3.0/docs/images/turtle.gif
+estocasticos/NetLogo 6.3.0/docs/images/3d/cube.gif
+estocasticos/NetLogo 6.3.0/docs/images/3d/heading.gif
+estocasticos/NetLogo 6.3.0/docs/images/3d/pitch.gif
+estocasticos/NetLogo 6.3.0/docs/images/3d/properties.gif
+estocasticos/NetLogo 6.3.0/docs/images/3d/roll.gif
+estocasticos/NetLogo 6.3.0/docs/images/behaviorspace/bs-spreadsheet.png
+estocasticos/NetLogo 6.3.0/docs/images/behaviorspace/bs-table.png
+estocasticos/NetLogo 6.3.0/docs/images/codetab/codetab.gif
+estocasticos/NetLogo 6.3.0/docs/images/codetab/codetaberror.gif
+estocasticos/NetLogo 6.3.0/docs/images/codetab/find-replace.gif
+estocasticos/NetLogo 6.3.0/docs/images/codetab/includesmenu.gif
+estocasticos/NetLogo 6.3.0/docs/images/codetab/includesmenuopen.gif
+estocasticos/NetLogo 6.3.0/docs/images/codetab/tabified-code.gif
+estocasticos/NetLogo 6.3.0/docs/images/codetab/tabsmenu.gif
+estocasticos/NetLogo 6.3.0/docs/images/extension-manager/screenshot.png
+estocasticos/NetLogo 6.3.0/docs/images/gogo/netlogolab-bulbs.jpg
+estocasticos/NetLogo 6.3.0/docs/images/gogo/netlogolab-example1-on_off_buttons.png
+estocasticos/NetLogo 6.3.0/docs/images/gogo/netlogolab-example1-setup_button.png
+estocasticos/NetLogo 6.3.0/docs/images/gogo/netlogolab-example2-monitor.png
+estocasticos/NetLogo 6.3.0/docs/images/gogo/netlogolab-light_sensor.jpg
+estocasticos/NetLogo 6.3.0/docs/images/gogo/netlogolab-motor.jpg
+estocasticos/NetLogo 6.3.0/docs/images/gogo/netlogolab-temperature_sensor.jpg
+estocasticos/NetLogo 6.3.0/docs/images/gogo/netlogolab-touch_sensor.jpg
+estocasticos/NetLogo 6.3.0/docs/images/hubnet/hubnetcontrolcenter.gif
+estocasticos/NetLogo 6.3.0/docs/images/hubnet/hubnetstartactivity.gif
+estocasticos/NetLogo 6.3.0/docs/images/infotab/infotab.gif
+estocasticos/NetLogo 6.3.0/docs/images/infotab/infotabedit.gif
+estocasticos/NetLogo 6.3.0/docs/images/interface/interfacetoolbar.gif
+estocasticos/NetLogo 6.3.0/docs/images/interface/menubar.gif
+estocasticos/NetLogo 6.3.0/docs/images/interfacetab/3d-buttons.gif
+estocasticos/NetLogo 6.3.0/docs/images/interfacetab/3d-cross.gif
+estocasticos/NetLogo 6.3.0/docs/images/interfacetab/3d-non-rotatable.gif
+estocasticos/NetLogo 6.3.0/docs/images/interfacetab/3d-rotatable.gif
+estocasticos/NetLogo 6.3.0/docs/images/interfacetab/agentmonitor1.png
+estocasticos/NetLogo 6.3.0/docs/images/interfacetab/agentmonitor2.png
+estocasticos/NetLogo 6.3.0/docs/images/interfacetab/agentmonitor3.png
+estocasticos/NetLogo 6.3.0/docs/images/interfacetab/agentmonitor4.png
+estocasticos/NetLogo 6.3.0/docs/images/interfacetab/button.gif
+estocasticos/NetLogo 6.3.0/docs/images/interfacetab/chooser.gif
+estocasticos/NetLogo 6.3.0/docs/images/interfacetab/command-center.gif
+estocasticos/NetLogo 6.3.0/docs/images/interfacetab/input.gif
+estocasticos/NetLogo 6.3.0/docs/images/interfacetab/model-buttons.gif
+estocasticos/NetLogo 6.3.0/docs/images/interfacetab/monitor.gif
+estocasticos/NetLogo 6.3.0/docs/images/interfacetab/note.gif
+estocasticos/NetLogo 6.3.0/docs/images/interfacetab/open3d-context.gif
+estocasticos/NetLogo 6.3.0/docs/images/interfacetab/output.gif
+estocasticos/NetLogo 6.3.0/docs/images/interfacetab/plot-dialog.gif
+estocasticos/NetLogo 6.3.0/docs/images/interfacetab/plot-pen-advanced.gif
+estocasticos/NetLogo 6.3.0/docs/images/interfacetab/plot.gif
+estocasticos/NetLogo 6.3.0/docs/images/interfacetab/settings.gif
+estocasticos/NetLogo 6.3.0/docs/images/interfacetab/slider.gif
+estocasticos/NetLogo 6.3.0/docs/images/interfacetab/sliderbounds.gif
+estocasticos/NetLogo 6.3.0/docs/images/interfacetab/switch.gif
+estocasticos/NetLogo 6.3.0/docs/images/interfacetab/widget-buttons.gif
+estocasticos/NetLogo 6.3.0/docs/images/modelingcommons/childmodel.gif
+estocasticos/NetLogo 6.3.0/docs/images/modelingcommons/login.gif
+estocasticos/NetLogo 6.3.0/docs/images/modelingcommons/modelingcommons.jpg
+estocasticos/NetLogo 6.3.0/docs/images/modelingcommons/newmodel.gif
+estocasticos/NetLogo 6.3.0/docs/images/programming/box.jpg
+estocasticos/NetLogo 6.3.0/docs/images/programming/circle-layout.gif
+estocasticos/NetLogo 6.3.0/docs/images/programming/colorswatches.gif
+estocasticos/NetLogo 6.3.0/docs/images/programming/drawing.gif
+estocasticos/NetLogo 6.3.0/docs/images/programming/radial-layout.gif
+estocasticos/NetLogo 6.3.0/docs/images/programming/torus.jpg
+estocasticos/NetLogo 6.3.0/docs/images/programming/tutte-layout.gif
+estocasticos/NetLogo 6.3.0/docs/images/sample/party.png
+estocasticos/NetLogo 6.3.0/docs/images/sample/tolerance.png
+estocasticos/NetLogo 6.3.0/docs/images/shapes/defaultlinkshape.gif
+estocasticos/NetLogo 6.3.0/docs/images/shapes/library.gif
+estocasticos/NetLogo 6.3.0/docs/images/shapes/linkshapes.gif
+estocasticos/NetLogo 6.3.0/docs/images/shapes/shapes.gif
+estocasticos/NetLogo 6.3.0/docs/images/systemdynamics/dt.gif
+estocasticos/NetLogo 6.3.0/docs/images/systemdynamics/elementbuttons.gif
+estocasticos/NetLogo 6.3.0/docs/images/systemdynamics/error.gif
+estocasticos/NetLogo 6.3.0/docs/images/systemdynamics/errordialog.jpg
+estocasticos/NetLogo 6.3.0/docs/images/systemdynamics/setdtexample.png
+estocasticos/NetLogo 6.3.0/docs/images/systemdynamics/tutorial1.png
+estocasticos/NetLogo 6.3.0/docs/images/systemdynamics/tutorial2-0.gif
+estocasticos/NetLogo 6.3.0/docs/images/systemdynamics/tutorial2-1.jpg
+estocasticos/NetLogo 6.3.0/docs/images/systemdynamics/tutorial2-2.gif
+estocasticos/NetLogo 6.3.0/docs/images/systemdynamics/tutorial5.png
+estocasticos/NetLogo 6.3.0/docs/images/systemdynamics/tutorial8.gif
+estocasticos/NetLogo 6.3.0/docs/images/systemdynamics/tutorial9.jpg
+estocasticos/NetLogo 6.3.0/docs/images/systemdynamics/tutorial10.jpg
+estocasticos/NetLogo 6.3.0/docs/images/systemdynamics/tutorial11.gif
+estocasticos/NetLogo 6.3.0/docs/images/systemdynamics/window.gif
+estocasticos/NetLogo 6.3.0/docs/images/transition/new-link-behavior.png
+estocasticos/NetLogo 6.3.0/docs/images/transition/old-link-behavior.png
+estocasticos/NetLogo 6.3.0/docs/images/tutorial1/controllers.png
+estocasticos/NetLogo 6.3.0/docs/images/tutorial1/coords-horizontal.gif
+estocasticos/NetLogo 6.3.0/docs/images/tutorial1/coords-vertical.gif
+estocasticos/NetLogo 6.3.0/docs/images/tutorial1/coords.gif
+estocasticos/NetLogo 6.3.0/docs/images/tutorial1/edit-view-properties.gif
+estocasticos/NetLogo 6.3.0/docs/images/tutorial1/go.gif
+estocasticos/NetLogo 6.3.0/docs/images/tutorial1/monitors.png
+estocasticos/NetLogo 6.3.0/docs/images/tutorial1/setup.gif
+estocasticos/NetLogo 6.3.0/docs/images/tutorial1/speed-slider.gif
+estocasticos/NetLogo 6.3.0/docs/images/tutorial2/car-inspector.png
+estocasticos/NetLogo 6.3.0/docs/images/tutorial2/cc-context-menu.gif
+estocasticos/NetLogo 6.3.0/docs/images/tutorial2/cc-error-expected-number.gif
+estocasticos/NetLogo 6.3.0/docs/images/tutorial2/cc-error-patch-color.gif
+estocasticos/NetLogo 6.3.0/docs/images/tutorial2/cc-set-patches-yellow.gif
+estocasticos/NetLogo 6.3.0/docs/images/tutorial2/cc-set-turtles-brown.gif
+estocasticos/NetLogo 6.3.0/docs/images/tutorial2/commandcenterhistory.gif
+estocasticos/NetLogo 6.3.0/docs/images/tutorial2/export-view-brown-cars-on-yellow.gif
+estocasticos/NetLogo 6.3.0/docs/images/tutorial2/patch-inspector.png
+estocasticos/NetLogo 6.3.0/docs/images/tutorial3/eating-grass.gif
+estocasticos/NetLogo 6.3.0/docs/images/tutorial3/errors.gif
+estocasticos/NetLogo 6.3.0/docs/images/tutorial3/gobutton.gif
+estocasticos/NetLogo 6.3.0/docs/images/tutorial3/monitor-1.gif
+estocasticos/NetLogo 6.3.0/docs/images/tutorial3/monitor-2.gif
+estocasticos/NetLogo 6.3.0/docs/images/tutorial3/plotwindow.png
+estocasticos/NetLogo 6.3.0/docs/images/tutorial3/scatter-on-green.gif
+estocasticos/NetLogo 6.3.0/docs/images/tutorial3/scatter.gif
+estocasticos/NetLogo 6.3.0/docs/images/tutorial3/setupcode.gif
+estocasticos/NetLogo 6.3.0/docs/images/tutorial3/show-energy.png
+estocasticos/NetLogo 6.3.0/docs/images/tutorial3/switch.gif
+estocasticos/NetLogo 6.3.0/docs/images/tutorial3/totals.gif
+estocasticos/NetLogo 6.3.0/docs/images/whatis/thumbnails.png
+estocasticos/NetLogo 6.3.0/extensions/.bundled/arduino/arduino.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/arduino/jssc-2.6.0.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/array/array.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/bitmap/bitmap.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/csv/commons-csv-1.0.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/csv/csv.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/gis/commons-httpclient-3.1.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/gis/gis.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/gis/jai_codec-1.1.3.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/gis/jai_core-1.1.3.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/gis/jts-1.13.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/gis/ngunits-1.0.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/gis/TinfourCore-2.1.5.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/gogo/gogo.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/gogo/hid4java-0.7.0.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/gogo/jna-5.6.0.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/ls/guava-18.0.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/ls/ls.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/matrix/jama-1.0.3.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/matrix/matrix.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/appearance-api-0.9.7.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/batik-anim-1.14.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/batik-awt-util-1.14.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/batik-bridge-1.14.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/batik-constants-1.14.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/batik-css-1.14.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/batik-dom-1.14.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/batik-ext-1.14.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/batik-gvt-1.14.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/batik-i18n-1.14.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/batik-parser-1.14.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/batik-script-1.14.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/batik-shared-resources-1.14.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/batik-svg-dom-1.14.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/batik-svggen-1.14.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/batik-transcoder-1.14.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/batik-util-1.14.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/batik-wrapper-0.9.7.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/batik-xml-1.14.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/collections-generic-4.01.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/colt-1.2.0.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/commons-compress-1.21.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/commons-csv-1.9.0.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/commons-math3-3.6.1.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/concurrent-1.3.4.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/core-library-wrapper-0.9.7.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/datalab-api-0.9.7.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/fastutil-8.3.0.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/filters-api-0.9.7.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/filters-impl-0.9.7.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/filters-plugin-0.9.7.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/gephi-toolkit-0.9.7.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/graph-api-0.9.7.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/graphstore-0.6.10.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/io-exporter-api-0.9.7.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/io-exporter-plugin-0.9.7.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/io-generator-api-0.9.7.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/io-generator-plugin-0.9.7.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/io-importer-api-0.9.7.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/io-importer-plugin-0.9.7.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/jgrapht-0.8.3.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/joda-time-2.10.3.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/jung-algorithms-2.0.1.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/jung-api-2.0.1.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/jung-graph-impl-2.0.1.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/jung-io-2.0.1.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/layout-api-0.9.7.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/layout-plugin-0.9.7.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/nw.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/org-netbeans-api-annotations-common-RELEASE140.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/org-netbeans-api-progress-nb-RELEASE140.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/org-netbeans-api-progress-RELEASE140.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/org-netbeans-core-startup-base-RELEASE140.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/org-netbeans-modules-masterfs-RELEASE140.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/org-netbeans-modules-queries-RELEASE140.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/org-openide-awt-RELEASE140.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/org-openide-dialogs-RELEASE140.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/org-openide-filesystems-RELEASE140.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/org-openide-modules-RELEASE140.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/org-openide-nodes-RELEASE140.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/org-openide-util-lookup-RELEASE140.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/org-openide-util-RELEASE140.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/org-openide-util-ui-RELEASE140.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/preview-api-0.9.7.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/project-api-0.9.7.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/statistics-api-0.9.7.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/statistics-plugin-0.9.7.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/stax-api-1.0.1.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/stax-utils-snapshot-20100402.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/stax2-api-4.2.1.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/utils-0.9.7.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/utils-longtask-0.9.7.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/woodstox-core-6.2.8.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/wstx-asl-3.2.6.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/xml-apis-ext-1.3.04.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/nw/xmlgraphics-commons-2.6.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/palette/palette.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/profiler/profiler.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/py/jackson-annotations-2.8.0.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/py/jackson-core-2.8.4.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/py/jackson-databind-2.8.4.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/py/json4s-ast_2.12-3.5.3.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/py/json4s-core_2.12-3.5.3.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/py/json4s-jackson_2.12-3.5.3.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/py/json4s-scalap_2.12-3.5.3.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/py/language-library_2.12-2.0.0.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/py/paranamer-2.8.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/py/py.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/py/pyext.py
+estocasticos/NetLogo 6.3.0/extensions/.bundled/py/scala-xml_2.12-1.3.0.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/r/GPL.txt
+estocasticos/NetLogo 6.3.0/extensions/.bundled/r/jna-4.2.2.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/r/r.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/r/user.properties
+estocasticos/NetLogo 6.3.0/extensions/.bundled/r/models/boxplot-example.nlogo
+estocasticos/NetLogo 6.3.0/extensions/.bundled/r/models/datafile-example.nlogo
+estocasticos/NetLogo 6.3.0/extensions/.bundled/r/models/diversity-example.nlogo
+estocasticos/NetLogo 6.3.0/extensions/.bundled/r/models/example1.nlogo
+estocasticos/NetLogo 6.3.0/extensions/.bundled/r/models/homerange-example.nlogo
+estocasticos/NetLogo 6.3.0/extensions/.bundled/r/models/interactiveShell.nlogo
+estocasticos/NetLogo 6.3.0/extensions/.bundled/r/models/l-function.nlogo
+estocasticos/NetLogo 6.3.0/extensions/.bundled/r/models/linear_regression-example.nlogo
+estocasticos/NetLogo 6.3.0/extensions/.bundled/r/models/package-example.nlogo
+estocasticos/NetLogo 6.3.0/extensions/.bundled/r/models/patchesToRMatrix.nlogo
+estocasticos/NetLogo 6.3.0/extensions/.bundled/r/models/plot-example1.nlogo
+estocasticos/NetLogo 6.3.0/extensions/.bundled/r/models/plot-example2.nlogo
+estocasticos/NetLogo 6.3.0/extensions/.bundled/r/models/plot-to-file-example.nlogo
+estocasticos/NetLogo 6.3.0/extensions/.bundled/r/models/rfunction1.r
+estocasticos/NetLogo 6.3.0/extensions/.bundled/r/models/ripleysK-example.nlogo
+estocasticos/NetLogo 6.3.0/extensions/.bundled/r/models/rscript-example.nlogo
+estocasticos/NetLogo 6.3.0/extensions/.bundled/r/models/spearman-example.nlogo
+estocasticos/NetLogo 6.3.0/extensions/.bundled/r/models/wilcoxon-example.nlogo
+estocasticos/NetLogo 6.3.0/extensions/.bundled/rnd/rnd.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/sample/sample.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/sample-scala/sample-scala.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/sound/sound.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/table/gson-2.8.6.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/table/table.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/time/time-series.nls
+estocasticos/NetLogo 6.3.0/extensions/.bundled/time/time.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/artoolkitplus-2.3.1-1.5.7.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/asm-4.0.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/bridj-0.7-20140918-3.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/checker-qual-2.11.1.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/cloning-1.9.10.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/colt-1.2.0.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/commons-imaging-1.0-alpha2.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/commons-io-2.7.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/commons-lang-2.6.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/commons-vfs2-2.0.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/concurrent-1.3.4.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/core-1.4-20220209.101848-153.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/core-aop-support-1.4-20220209.101849-153.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/core-citation-1.4-20220209.101849-153.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/core-image-1.4-20220209.101850-153.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/core-video-1.4-20220209.101851-153.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/core-video-capture-1.4-20220209.101851-153.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/dx-1.7.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/error_prone_annotations-2.3.4.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/failureaccess-1.0.1.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/ffmpeg-5.0-1.5.7.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/flandmark-1.07-1.5.7.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/flycapture-2.13.3.31-1.5.7.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/guava-29.0-jre.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/j2objc-annotations-1.3.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/jal-20031117.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/javacpp-1.5.7-linux-x86_64.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/javacpp-1.5.7.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/javacv-1.5.7.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/javassist-3.12.1.GA.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/jbibtex-1.0.2.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/jcodec-0.1.9.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/jcodec-javase-0.1.9.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/jsoup-1.14.2.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/jsr305-3.0.2.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/kryo-2.21.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/leptonica-1.82.0-1.5.7.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/libdc1394-2.2.6-1.5.7.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/libfreenect-0.5.7-1.5.7.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/libfreenect2-0.2.0-1.5.7.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/librealsense-1.12.4-1.5.7.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/librealsense2-2.50.0-1.5.7.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/log4j-api-2.17.1.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/log4j-core-2.17.1.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/maven-scm-api-1.4.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/maven-scm-provider-svn-commons-1.4.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/maven-scm-provider-svnexe-1.4.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/minlog-1.2.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/objenesis-2.6.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/openblas-0.3.19-1.5.7-linux-x86_64.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/openblas-0.3.19-1.5.7.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/opencv-4.5.5-1.5.7-linux-x86_64.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/opencv-4.5.5-1.5.7.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/plexus-utils-1.5.6.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/reflectasm-1.07-shaded.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/regexp-1.3.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/tesseract-5.0.1-1.5.7.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/trove4j-3.0.2.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/vid.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/vid/videoinput-0.200-1.5.7.jar
+estocasticos/NetLogo 6.3.0/extensions/.bundled/view2.5d/view2.5d.jar
+estocasticos/NetLogo 6.3.0/lib/Behaviorsearch.png
+estocasticos/NetLogo 6.3.0/lib/HubNetClient.png
+estocasticos/NetLogo 6.3.0/lib/libapplauncher.so
+estocasticos/NetLogo 6.3.0/lib/NetLogo.png
+estocasticos/NetLogo 6.3.0/lib/NetLogo3D.png
+estocasticos/NetLogo 6.3.0/lib/app/.jpackage.xml
+estocasticos/NetLogo 6.3.0/lib/app/args4j-2.0.12.jar
+estocasticos/NetLogo 6.3.0/lib/app/asm-9.1.jar
+estocasticos/NetLogo 6.3.0/lib/app/asm-analysis-9.1.jar
+estocasticos/NetLogo 6.3.0/lib/app/asm-commons-9.1.jar
+estocasticos/NetLogo 6.3.0/lib/app/asm-tree-9.1.jar
+estocasticos/NetLogo 6.3.0/lib/app/asm-util-9.1.jar
+estocasticos/NetLogo 6.3.0/lib/app/autolink-0.6.0.jar
+estocasticos/NetLogo 6.3.0/lib/app/Behaviorsearch.cfg
+estocasticos/NetLogo 6.3.0/lib/app/behaviorsearch.jar
+estocasticos/NetLogo 6.3.0/lib/app/commons-codec-1.15.jar
+estocasticos/NetLogo 6.3.0/lib/app/commons-logging-1.1.1.jar
+estocasticos/NetLogo 6.3.0/lib/app/config-1.4.1.jar
+estocasticos/NetLogo 6.3.0/lib/app/flexmark-0.20.0.jar
+estocasticos/NetLogo 6.3.0/lib/app/flexmark-ext-autolink-0.20.0.jar
+estocasticos/NetLogo 6.3.0/lib/app/flexmark-ext-escaped-character-0.20.0.jar
+estocasticos/NetLogo 6.3.0/lib/app/flexmark-ext-typographic-0.20.0.jar
+estocasticos/NetLogo 6.3.0/lib/app/flexmark-formatter-0.20.0.jar
+estocasticos/NetLogo 6.3.0/lib/app/flexmark-util-0.20.0.jar
+estocasticos/NetLogo 6.3.0/lib/app/gluegen-rt.jar
+estocasticos/NetLogo 6.3.0/lib/app/httpclient-4.2.jar
+estocasticos/NetLogo 6.3.0/lib/app/httpcore-4.2.jar
+estocasticos/NetLogo 6.3.0/lib/app/httpmime-4.2.jar
+estocasticos/NetLogo 6.3.0/lib/app/HubNetClient.cfg
+estocasticos/NetLogo 6.3.0/lib/app/javafx-base-16-linux.jar
+estocasticos/NetLogo 6.3.0/lib/app/javafx-base-16.jar
+estocasticos/NetLogo 6.3.0/lib/app/javafx-controls-16-linux.jar
+estocasticos/NetLogo 6.3.0/lib/app/javafx-controls-16.jar
+estocasticos/NetLogo 6.3.0/lib/app/javafx-fxml-16-linux.jar
+estocasticos/NetLogo 6.3.0/lib/app/javafx-graphics-16-linux.jar
+estocasticos/NetLogo 6.3.0/lib/app/javafx-graphics-16.jar
+estocasticos/NetLogo 6.3.0/lib/app/javafx-media-16-linux.jar
+estocasticos/NetLogo 6.3.0/lib/app/javafx-media-16.jar
+estocasticos/NetLogo 6.3.0/lib/app/javafx-swing-16-linux.jar
+estocasticos/NetLogo 6.3.0/lib/app/javafx-web-16-linux.jar
+estocasticos/NetLogo 6.3.0/lib/app/jcommon-1.0.16.jar
+estocasticos/NetLogo 6.3.0/lib/app/jfreechart-1.0.13.jar
+estocasticos/NetLogo 6.3.0/lib/app/jhotdraw-6.0b1.jar
+estocasticos/NetLogo 6.3.0/lib/app/jmf-2.1.1e.jar
+estocasticos/NetLogo 6.3.0/lib/app/jogl-all.jar
+estocasticos/NetLogo 6.3.0/lib/app/json-simple-1.1.1.jar
+estocasticos/NetLogo 6.3.0/lib/app/netlogo-6.3.0.jar
+estocasticos/NetLogo 6.3.0/lib/app/NetLogo.cfg
+estocasticos/NetLogo 6.3.0/lib/app/NetLogo3D.cfg
+estocasticos/NetLogo 6.3.0/lib/app/parboiled_2.12-2.3.0.jar
+estocasticos/NetLogo 6.3.0/lib/app/picocontainer-2.15.jar
+estocasticos/NetLogo 6.3.0/lib/app/rsyntaxtextarea-3.1.3.jar
+estocasticos/NetLogo 6.3.0/lib/app/scala-library-2.12.16.jar
+estocasticos/NetLogo 6.3.0/lib/app/scala-library.jar
+estocasticos/NetLogo 6.3.0/lib/app/scala-parser-combinators_2.12-2.1.0.jar
+estocasticos/NetLogo 6.3.0/lib/app/shapeless_2.12-2.3.4.jar
+estocasticos/NetLogo 6.3.0/lib/app/zip4j-2.9.0.jar
+estocasticos/NetLogo 6.3.0/lib/runtime/release
+estocasticos/NetLogo 6.3.0/lib/runtime/conf/logging.properties
+estocasticos/NetLogo 6.3.0/lib/runtime/conf/net.properties
+estocasticos/NetLogo 6.3.0/lib/runtime/conf/sound.properties
+estocasticos/NetLogo 6.3.0/lib/runtime/conf/management/jmxremote.access
+estocasticos/NetLogo 6.3.0/lib/runtime/conf/management/jmxremote.password.template
+estocasticos/NetLogo 6.3.0/lib/runtime/conf/management/management.properties
+estocasticos/NetLogo 6.3.0/lib/runtime/conf/sdp/sdp.conf.template
+estocasticos/NetLogo 6.3.0/lib/runtime/conf/security/java.policy
+estocasticos/NetLogo 6.3.0/lib/runtime/conf/security/java.security
+estocasticos/NetLogo 6.3.0/lib/runtime/conf/security/policy/README.txt
+estocasticos/NetLogo 6.3.0/lib/runtime/conf/security/policy/limited/default_local.policy
+estocasticos/NetLogo 6.3.0/lib/runtime/conf/security/policy/limited/default_US_export.policy
+estocasticos/NetLogo 6.3.0/lib/runtime/conf/security/policy/limited/exempt_local.policy
+estocasticos/NetLogo 6.3.0/lib/runtime/conf/security/policy/unlimited/default_local.policy
+estocasticos/NetLogo 6.3.0/lib/runtime/conf/security/policy/unlimited/default_US_export.policy
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.base/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.base/aes.md
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.base/asm.md
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.base/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.base/c-libutl.md
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.base/cldr.md
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.base/icu.md
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.base/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.base/public_suffix.md
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.base/unicode.md
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.compiler/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.compiler/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.compiler/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.datatransfer/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.datatransfer/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.datatransfer/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.desktop/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.desktop/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.desktop/colorimaging.md
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.desktop/freetype.md
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.desktop/giflib.md
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.desktop/harfbuzz.md
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.desktop/jpeg.md
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.desktop/lcms.md
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.desktop/libpng.md
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.desktop/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.desktop/mesa3d.md
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.desktop/xwd.md
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.instrument/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.instrument/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.instrument/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.logging/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.logging/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.logging/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.management/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.management/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.management/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.management.rmi/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.management.rmi/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.management.rmi/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.naming/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.naming/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.naming/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.net.http/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.net.http/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.net.http/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.prefs/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.prefs/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.prefs/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.rmi/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.rmi/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.rmi/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.scripting/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.scripting/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.scripting/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.security.jgss/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.security.jgss/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.security.jgss/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.security.sasl/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.security.sasl/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.security.sasl/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.smartcardio/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.smartcardio/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.smartcardio/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.smartcardio/pcsclite.md
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.sql/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.sql/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.sql/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.sql.rowset/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.sql.rowset/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.sql.rowset/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.transaction.xa/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.transaction.xa/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.transaction.xa/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.xml/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.xml/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.xml/bcel.md
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.xml/dom.md
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.xml/jcup.md
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.xml/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.xml/xalan.md
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.xml/xerces.md
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.xml.crypto/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.xml.crypto/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.xml.crypto/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/java.xml.crypto/santuario.md
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/javafx.base/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/javafx.base/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/javafx.base/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/javafx.controls/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/javafx.controls/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/javafx.controls/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/javafx.fxml/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/javafx.fxml/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/javafx.fxml/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/javafx.graphics/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/javafx.graphics/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/javafx.graphics/jpeg_fx.md
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/javafx.graphics/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/javafx.graphics/mesa3d.md
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/javafx.media/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/javafx.media/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/javafx.media/directshow.md
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/javafx.media/glib.md
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/javafx.media/gstreamer.md
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/javafx.media/libffi.md
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/javafx.media/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/javafx.swing/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/javafx.swing/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/javafx.swing/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/javafx.web/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/javafx.web/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/javafx.web/icu_web.md
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/javafx.web/libxml2.md
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/javafx.web/libxslt.md
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/javafx.web/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/javafx.web/webkit.md
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.accessibility/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.accessibility/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.accessibility/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.attach/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.attach/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.attach/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.charsets/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.charsets/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.charsets/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.compiler/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.compiler/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.compiler/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.crypto.cryptoki/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.crypto.cryptoki/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.crypto.cryptoki/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.crypto.cryptoki/pkcs11cryptotoken.md
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.crypto.cryptoki/pkcs11wrapper.md
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.crypto.ec/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.crypto.ec/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.crypto.ec/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.dynalink/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.dynalink/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.dynalink/dynalink.md
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.dynalink/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.editpad/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.editpad/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.editpad/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.httpserver/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.httpserver/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.httpserver/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.incubator.foreign/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.incubator.foreign/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.incubator.foreign/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.incubator.vector/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.incubator.vector/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.incubator.vector/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.internal.ed/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.internal.ed/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.internal.ed/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.internal.jvmstat/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.internal.jvmstat/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.internal.jvmstat/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.internal.le/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.internal.le/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.internal.le/jline.md
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.internal.le/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.internal.opt/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.internal.opt/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.internal.opt/jopt-simple.md
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.internal.opt/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.jartool/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.jartool/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.jartool/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.javadoc/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.javadoc/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.javadoc/jquery.md
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.javadoc/jqueryUI.md
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.javadoc/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.jconsole/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.jconsole/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.jconsole/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.jdeps/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.jdeps/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.jdeps/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.jdi/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.jdi/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.jdi/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.jdwp.agent/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.jdwp.agent/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.jdwp.agent/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.jfr/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.jfr/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.jfr/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.jlink/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.jlink/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.jlink/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.jpackage/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.jpackage/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.jpackage/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.jshell/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.jshell/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.jshell/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.jsobject/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.jsobject/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.jsobject/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.jstatd/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.jstatd/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.jstatd/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.localedata/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.localedata/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.localedata/cldr.md
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.localedata/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.localedata/thaidict.md
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.management/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.management/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.management/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.management.agent/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.management.agent/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.management.agent/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.management.jfr/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.management.jfr/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.management.jfr/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.naming.dns/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.naming.dns/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.naming.dns/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.naming.rmi/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.naming.rmi/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.naming.rmi/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.net/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.net/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.net/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.nio.mapmode/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.nio.mapmode/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.nio.mapmode/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.random/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.random/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.random/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.sctp/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.sctp/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.sctp/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.security.auth/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.security.auth/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.security.auth/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.security.jgss/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.security.jgss/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.security.jgss/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.unsupported/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.unsupported/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.unsupported/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.unsupported.desktop/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.unsupported.desktop/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.unsupported.desktop/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.xml.dom/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.xml.dom/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.xml.dom/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.zipfs/ADDITIONAL_LICENSE_INFO
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.zipfs/ASSEMBLY_EXCEPTION
+estocasticos/NetLogo 6.3.0/lib/runtime/legal/jdk.zipfs/LICENSE
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/classlist
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/ct.sym
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/javafx-swt.jar
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/javafx.properties
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/jexec
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/jrt-fs.jar
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/jspawnhelper
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/jvm.cfg
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libattach.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libavplugin-54.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libavplugin-56.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libavplugin-57.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libavplugin-ffmpeg-56.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libavplugin-ffmpeg-57.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libavplugin-ffmpeg-58.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libawt_headless.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libawt_xawt.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libawt.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libdecora_sse.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libdt_socket.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libextnet.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libfontmanager.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libfreetype.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libfxplugins.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libglass.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libglassgtk2.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libglassgtk3.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libgstreamer-lite.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libinstrument.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libj2gss.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libj2pcsc.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libj2pkcs11.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libjaas.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libjava.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libjavafx_font_freetype.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libjavafx_font_pango.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libjavafx_font.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libjavafx_iio.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libjavajpeg.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libjawt.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libjdwp.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libjfxmedia.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libjfxwebkit.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libjimage.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libjli.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libjsig.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libjsound.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libjsvml.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/liblcms.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libmanagement_agent.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libmanagement_ext.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libmanagement.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libmlib_image.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libnet.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libnio.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libprefs.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libprism_common.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libprism_es2.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libprism_sw.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/librmi.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libsctp.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libsplashscreen.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libsyslookup.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libverify.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/libzip.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/modules
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/psfont.properties.ja
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/psfontj2d.properties
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/tzdb.dat
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/client/libjsig.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/client/libjvm.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/jfr/default.jfc
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/jfr/profile.jfc
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/minimal/libjsig.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/minimal/libjvm.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/security/blocked.certs
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/security/cacerts
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/security/default.policy
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/security/public_suffix_list.dat
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/server/libjsig.so
+estocasticos/NetLogo 6.3.0/lib/runtime/lib/server/libjvm.so
+estocasticos/NetLogo 6.3.0/models/crossReference.conf
+estocasticos/NetLogo 6.3.0/models/index.conf
+estocasticos/NetLogo 6.3.0/models/3D/Code Examples/Airplane Landing Example 3D.nlogo3d
+estocasticos/NetLogo 6.3.0/models/3D/Code Examples/Airplane Landing Example 3D.png
+estocasticos/NetLogo 6.3.0/models/3D/Code Examples/Bouncing Balls Example 3D.nlogo3d
+estocasticos/NetLogo 6.3.0/models/3D/Code Examples/Bouncing Balls Example 3D.png
+estocasticos/NetLogo 6.3.0/models/3D/Code Examples/Hill Climbing Example 3D.nlogo3d
+estocasticos/NetLogo 6.3.0/models/3D/Code Examples/Hill Climbing Example 3D.png
+estocasticos/NetLogo 6.3.0/models/3D/Code Examples/Neighborhoods Example 3D.nlogo3d
+estocasticos/NetLogo 6.3.0/models/3D/Code Examples/Neighborhoods Example 3D.png
+estocasticos/NetLogo 6.3.0/models/3D/Code Examples/Network Example 3D.nlogo3d
+estocasticos/NetLogo 6.3.0/models/3D/Code Examples/Network Example 3D.png
+estocasticos/NetLogo 6.3.0/models/3D/Code Examples/Shapes Example 3D.nlogo3d
+estocasticos/NetLogo 6.3.0/models/3D/Code Examples/Shapes Example 3D.png
+estocasticos/NetLogo 6.3.0/models/3D/Code Examples/Spherical Path Example 3D.nlogo3d
+estocasticos/NetLogo 6.3.0/models/3D/Code Examples/Spherical Path Example 3D.png
+estocasticos/NetLogo 6.3.0/models/3D/Code Examples/Three Loops Example 3D.nlogo3d
+estocasticos/NetLogo 6.3.0/models/3D/Code Examples/Three Loops Example 3D.png
+estocasticos/NetLogo 6.3.0/models/3D/Code Examples/Trails Example 3D.nlogo3d
+estocasticos/NetLogo 6.3.0/models/3D/Code Examples/Trails Example 3D.png
+estocasticos/NetLogo 6.3.0/models/3D/Code Examples/Turtle and Observer Motion Example 3D.nlogo3d
+estocasticos/NetLogo 6.3.0/models/3D/Code Examples/Turtle and Observer Motion Example 3D.png
+estocasticos/NetLogo 6.3.0/models/3D/Code Examples/Turtle Dance Example 3D.nlogo3d
+estocasticos/NetLogo 6.3.0/models/3D/Code Examples/Turtle Dance Example 3D.png
+estocasticos/NetLogo 6.3.0/models/3D/Code Examples/Turtle Perspective Example 3D.nlogo3d
+estocasticos/NetLogo 6.3.0/models/3D/Code Examples/Turtle Perspective Example 3D.png
+estocasticos/NetLogo 6.3.0/models/3D/Code Examples/Uniform Distribution on a Sphere Example 3D.nlogo3d
+estocasticos/NetLogo 6.3.0/models/3D/Code Examples/Uniform Distribution on a Sphere Example 3D.png
+estocasticos/NetLogo 6.3.0/models/3D/Sample Models/DLA 3D.nlogo3d
+estocasticos/NetLogo 6.3.0/models/3D/Sample Models/DLA 3D.png
+estocasticos/NetLogo 6.3.0/models/3D/Sample Models/Fireworks 3D.nlogo3d
+estocasticos/NetLogo 6.3.0/models/3D/Sample Models/Fireworks 3D.png
+estocasticos/NetLogo 6.3.0/models/3D/Sample Models/Flocking 3D Alternate.nlogo3d
+estocasticos/NetLogo 6.3.0/models/3D/Sample Models/Flocking 3D Alternate.png
+estocasticos/NetLogo 6.3.0/models/3D/Sample Models/Flocking 3D.nlogo3d
+estocasticos/NetLogo 6.3.0/models/3D/Sample Models/Flocking 3D.png
+estocasticos/NetLogo 6.3.0/models/3D/Sample Models/Follower 3D.nlogo3d
+estocasticos/NetLogo 6.3.0/models/3D/Sample Models/Follower 3D.png
+estocasticos/NetLogo 6.3.0/models/3D/Sample Models/Hydrogen Diffusion 3D.nlogo3d
+estocasticos/NetLogo 6.3.0/models/3D/Sample Models/Hydrogen Diffusion 3D.png
+estocasticos/NetLogo 6.3.0/models/3D/Sample Models/Life 3D.nlogo3d
+estocasticos/NetLogo 6.3.0/models/3D/Sample Models/Life 3D.png
+estocasticos/NetLogo 6.3.0/models/3D/Sample Models/Mousetraps 3D.nlogo3d
+estocasticos/NetLogo 6.3.0/models/3D/Sample Models/Mousetraps 3D.png
+estocasticos/NetLogo 6.3.0/models/3D/Sample Models/Percolation 3D.nlogo3d
+estocasticos/NetLogo 6.3.0/models/3D/Sample Models/Percolation 3D.png
+estocasticos/NetLogo 6.3.0/models/3D/Sample Models/Preferential Attachment 3D.nlogo3d
+estocasticos/NetLogo 6.3.0/models/3D/Sample Models/Preferential Attachment 3D.png
+estocasticos/NetLogo 6.3.0/models/3D/Sample Models/Raindrops 3D.nlogo3d
+estocasticos/NetLogo 6.3.0/models/3D/Sample Models/Raindrops 3D.png
+estocasticos/NetLogo 6.3.0/models/3D/Sample Models/Rope 3D.nlogo3d
+estocasticos/NetLogo 6.3.0/models/3D/Sample Models/Rope 3D.png
+estocasticos/NetLogo 6.3.0/models/3D/Sample Models/Sand 3D.nlogo3d
+estocasticos/NetLogo 6.3.0/models/3D/Sample Models/Sand 3D.png
+estocasticos/NetLogo 6.3.0/models/3D/Sample Models/Sandpile 3D.nlogo3d
+estocasticos/NetLogo 6.3.0/models/3D/Sample Models/Sandpile 3D.png
+estocasticos/NetLogo 6.3.0/models/3D/Sample Models/Sierpinski Simple 3D.nlogo3d
+estocasticos/NetLogo 6.3.0/models/3D/Sample Models/Sierpinski Simple 3D.png
+estocasticos/NetLogo 6.3.0/models/3D/Sample Models/Sunflower 3D.nlogo3d
+estocasticos/NetLogo 6.3.0/models/3D/Sample Models/Sunflower 3D.png
+estocasticos/NetLogo 6.3.0/models/3D/Sample Models/Surface Walking 3D.nlogo3d
+estocasticos/NetLogo 6.3.0/models/3D/Sample Models/Surface Walking 3D.png
+estocasticos/NetLogo 6.3.0/models/3D/Sample Models/Termites 3D.nlogo3d
+estocasticos/NetLogo 6.3.0/models/3D/Sample Models/Termites 3D.png
+estocasticos/NetLogo 6.3.0/models/3D/Sample Models/Tree Simple 3D.nlogo3d
+estocasticos/NetLogo 6.3.0/models/3D/Sample Models/Tree Simple 3D.png
+estocasticos/NetLogo 6.3.0/models/3D/Sample Models/Wave Machine 3D.nlogo3d
+estocasticos/NetLogo 6.3.0/models/3D/Sample Models/Wave Machine 3D.png
+estocasticos/NetLogo 6.3.0/models/3D/Sample Models/GasLab/GasLab Free Gas 3D.nlogo3d
+estocasticos/NetLogo 6.3.0/models/3D/Sample Models/GasLab/GasLab Free Gas 3D.png
+estocasticos/NetLogo 6.3.0/models/3D/Sample Models/GasLab/GasLab Single Collision 3D.nlogo3d
+estocasticos/NetLogo 6.3.0/models/3D/Sample Models/GasLab/GasLab Single Collision 3D.png
+estocasticos/NetLogo 6.3.0/models/3D/Sample Models/GasLab/GasLab Two Gas 3D.nlogo3d
+estocasticos/NetLogo 6.3.0/models/3D/Sample Models/GasLab/GasLab Two Gas 3D.png
+estocasticos/NetLogo 6.3.0/models/3D/Sample Models/GasLab/wall.txt
+estocasticos/NetLogo 6.3.0/models/Alternative Visualizations/Ethnocentrism - Alternative Visualization.nlogo
+estocasticos/NetLogo 6.3.0/models/Alternative Visualizations/Ethnocentrism - Alternative Visualization.png
+estocasticos/NetLogo 6.3.0/models/Alternative Visualizations/Flocking - Alternative Visualizations.nlogo
+estocasticos/NetLogo 6.3.0/models/Alternative Visualizations/Flocking - Alternative Visualizations.png
+estocasticos/NetLogo 6.3.0/models/Alternative Visualizations/Heat Diffusion - Alternative Visualization.nlogo
+estocasticos/NetLogo 6.3.0/models/Alternative Visualizations/Heat Diffusion - Alternative Visualization.png
+estocasticos/NetLogo 6.3.0/models/Alternative Visualizations/Virus - Alternative Visualization.nlogo
+estocasticos/NetLogo 6.3.0/models/Alternative Visualizations/Virus - Alternative Visualization.png
+estocasticos/NetLogo 6.3.0/models/Alternative Visualizations/Virus - Circle Visualization.nlogo
+estocasticos/NetLogo 6.3.0/models/Alternative Visualizations/Virus - Circle Visualization.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/3D Shapes Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/3D Shapes Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/aquifer-egypt.jpg
+estocasticos/NetLogo 6.3.0/models/Code Examples/Ask Ordering Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Ask Ordering Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Ask-Concurrent Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Ask-Concurrent Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/attributes.txt
+estocasticos/NetLogo 6.3.0/models/Code Examples/Bounce Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Bounce Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Box Drawing Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Box Drawing Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Breed Procedures Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Breed Procedures Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Breeds and Shapes Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Breeds and Shapes Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Case Conversion Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Case Conversion Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Circular Path Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Circular Path Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Color Chart Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Color Chart Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Communication-T-P Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Communication-T-P Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Communication-T-T Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Communication-T-T Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/dandelions.gif
+estocasticos/NetLogo 6.3.0/models/Code Examples/Diffuse Off Edges Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Diffuse Off Edges Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/earth.gif
+estocasticos/NetLogo 6.3.0/models/Code Examples/ecoli.jpg
+estocasticos/NetLogo 6.3.0/models/Code Examples/File Input Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/File Input Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/File IO Patch Data.txt
+estocasticos/NetLogo 6.3.0/models/Code Examples/File Output Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/File Output Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Fully Connected Network Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Fully Connected Network Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Grouping Turtles Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Grouping Turtles Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Halo Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Halo Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Hatch Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Hatch Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Hex Cells Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Hex Cells Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Hex Turtles Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Hex Turtles Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Hill Climbing Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Hill Climbing Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Histogram Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Histogram Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/HSB and RGB Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/HSB and RGB Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Image Import Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Image Import Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Info Tab Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Info Tab Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Intersecting Lines Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Intersecting Lines Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Intersecting Links Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Intersecting Links Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Label Position Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Label Position Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Lattice-Walking Turtles Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Lattice-Walking Turtles Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Line of Sight Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Line of Sight Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Link Breeds Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Link Breeds Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Link Lattice Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Link Lattice Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Link-Walking Turtles Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Link-Walking Turtles Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/links.txt
+estocasticos/NetLogo 6.3.0/models/Code Examples/Look Ahead Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Look Ahead Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Lottery Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Lottery Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Many Regions Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Many Regions Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Mobile Aggregation Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Mobile Aggregation Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Moore & Von Neumann Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Moore & Von Neumann Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Mouse Drag Multiple Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Mouse Drag Multiple Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Mouse Drag One Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Mouse Drag One Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Mouse Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Mouse Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Mouse Recording Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Mouse Recording Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Move Towards Target Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Move Towards Target Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Myself Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Myself Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Neighborhoods Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Neighborhoods Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Network Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Network Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Network Import Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Network Import Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Next Patch Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Next Patch Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/One Turtle Per Patch Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/One Turtle Per Patch Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Partners Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Partners Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Patch Clusters Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Patch Clusters Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Patch Coordinates Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Patch Coordinates Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Perspective Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Perspective Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Plot Axis Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Plot Axis Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Plot Smoothing Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Plot Smoothing Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Plotting Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Plotting Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Random Grid Walk Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Random Grid Walk Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Random Network Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Random Network Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Random Seed Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Random Seed Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Random Walk Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Random Walk Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Rolling Plot Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Rolling Plot Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Scale-color Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Scale-color Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Scatter Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Scatter Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Shape Animation Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Shape Animation Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/State Machine Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/State Machine Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Tie System Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Tie System Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Transparency Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Transparency Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Tutorial 3.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Tutorial 3.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/User Interaction Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/User Interaction Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Vision Cone Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Vision Cone Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Wall Following Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Wall Following Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/weathermap.jpg
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/csv/CSV Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/csv/CSV Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/gis/GIS General Examples.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/gis/GIS General Examples.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/gis/GIS Gradient Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/gis/data/cities.dbf
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/gis/data/cities.prj
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/gis/data/cities.shp
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/gis/data/cities.shx
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/gis/data/cities.txt
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/gis/data/countries.dbf
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/gis/data/countries.prj
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/gis/data/countries.shp
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/gis/data/countries.shx
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/gis/data/countries.xml
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/gis/data/Lambert_Conformal_Conic.prj
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/gis/data/local-elevation.asc
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/gis/data/local-elevation.prj
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/gis/data/rivers.dbf
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/gis/data/rivers.prj
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/gis/data/rivers.shp
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/gis/data/rivers.shx
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/gis/data/rivers.txt
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/gis/data/US_Orthographic.prj
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/gis/data/WGS_84_Geographic.prj
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/gis/data/world-elevation.asc
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/gis/data/world-elevation.prj
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/gogo/GoGoMonitor.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/gogo/GoGoMonitor.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/gogo/GoGoMonitorSimple.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/gogo/GoGoMonitorSimple.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/ls/Model Interactions Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/ls/Model Interactions Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/ls/Model Visualizer and Plotter Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/ls/Model Visualizer and Plotter Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/ls/Parent Model Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/ls/Parent Model Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/matrix/Matrix Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/matrix/Matrix Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/nw/NW General Examples.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/palette/Color Bubbles.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/palette/Color Bubbles.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/palette/Color Painting.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/palette/Color Painting.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/palette/Color Reveal.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/palette/Color Reveal.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/palette/Palette Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/palette/Palette Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/profiler/Profiler Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/profiler/Profiler Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/py/Python Basic Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/py/Python Basic Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/py/Python Flocking Clusters.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/py/Python Flocking Clusters.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/rnd/Rnd Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/rnd/Rnd Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/sound/Beatbox.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/sound/Beatbox.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/sound/Composer.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/sound/Composer.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/sound/GasLab With Sound.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/sound/GasLab With Sound.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/sound/Musical Phrase Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/sound/Musical Phrase Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/sound/Percussion Workbench.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/sound/Percussion Workbench.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/sound/Sound Workbench.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/sound/Sound Workbench.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/sound/Beats/rock1.csv
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/sound/Beats/seth1.csv
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/sound/Beats/seth2.csv
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/sound/Beats/seth3.csv
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/table/Table Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/table/Table Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/time/Discrete Event Mousetrap.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/time/Discrete Event Mousetrap.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/time/Discrete Event Whack-a-Mole.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/time/Discrete Event Whack-a-Mole.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/time/Logotimes Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/time/Logotimes Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/time/time-series.nls
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/vid/Movie Playing Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/vid/Movie Playing Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/vid/Movie Recording Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/vid/Movie Recording Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/vid/Video Camera Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/vid/Video Camera Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/view2.5d/2.5d Patch View Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/view2.5d/2.5d Patch View Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/view2.5d/2.5d Turtle View Example.nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Extensions Examples/view2.5d/2.5d Turtle View Example.png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Perspective Demos/Ants (Perspective Demo).nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Perspective Demos/Ants (Perspective Demo).png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Perspective Demos/Flocking (Perspective Demo).nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Perspective Demos/Flocking (Perspective Demo).png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Perspective Demos/GasLab Gas in a Box (Perspective Demo).nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Perspective Demos/GasLab Gas in a Box (Perspective Demo).png
+estocasticos/NetLogo 6.3.0/models/Code Examples/Perspective Demos/Termites (Perspective Demo).nlogo
+estocasticos/NetLogo 6.3.0/models/Code Examples/Perspective Demos/Termites (Perspective Demo).png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/BEAGLE Evolution/Bird Breeder.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/BEAGLE Evolution/Bird Breeder.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/BEAGLE Evolution/Bug Hunt Coevolution.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/BEAGLE Evolution/Bug Hunt Coevolution.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/BEAGLE Evolution/Bug Hunt Consumers.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/BEAGLE Evolution/Bug Hunt Consumers.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/BEAGLE Evolution/Bug Hunt Drift.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/BEAGLE Evolution/Bug Hunt Drift.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/BEAGLE Evolution/Bug Hunt Predators and Invasive Species.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/BEAGLE Evolution/Bug Hunt Predators and Invasive Species.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/BEAGLE Evolution/DNA Protein Synthesis.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/BEAGLE Evolution/DNA Protein Synthesis.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/BEAGLE Evolution/DNA Replication Fork.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/BEAGLE Evolution/DNA Replication Fork.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/BEAGLE Evolution/Fish Tank Genetic Drift.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/BEAGLE Evolution/Fish Tank Genetic Drift.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/BEAGLE Evolution/Plant Hybridization.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/BEAGLE Evolution/Plant Hybridization.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/BEAGLE Evolution/Plant Speciation.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/BEAGLE Evolution/Plant Speciation.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/BEAGLE Evolution/Red Queen.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/BEAGLE Evolution/Red Queen.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/BEAGLE Evolution/EACH/Altruism.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/BEAGLE Evolution/EACH/Altruism.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/BEAGLE Evolution/EACH/Cooperation.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/BEAGLE Evolution/EACH/Cooperation.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/BEAGLE Evolution/EACH/Divide The Cake.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/BEAGLE Evolution/EACH/Divide The Cake.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/BEAGLE Evolution/HubNet Activities/aquarium.jpg
+estocasticos/NetLogo 6.3.0/models/Curricular Models/BEAGLE Evolution/HubNet Activities/Bird Breeders HubNet.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/BEAGLE Evolution/HubNet Activities/Bird Breeders HubNet.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/BEAGLE Evolution/HubNet Activities/Bug Hunters Adaptations HubNet.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/BEAGLE Evolution/HubNet Activities/Bug Hunters Adaptations HubNet.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/BEAGLE Evolution/HubNet Activities/Bug Hunters Camouflage HubNet.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/BEAGLE Evolution/HubNet Activities/Bug Hunters Camouflage HubNet.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/BEAGLE Evolution/HubNet Activities/Bug Hunters Competition HubNet.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/BEAGLE Evolution/HubNet Activities/Bug Hunters Competition HubNet.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/BEAGLE Evolution/HubNet Activities/Critter Designers HubNet.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/BEAGLE Evolution/HubNet Activities/Critter Designers HubNet.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/BEAGLE Evolution/HubNet Activities/Fish Spotters HubNet.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/BEAGLE Evolution/HubNet Activities/Fish Spotters HubNet.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/BEAGLE Evolution/HubNet Activities/glacier.jpg
+estocasticos/NetLogo 6.3.0/models/Curricular Models/BEAGLE Evolution/HubNet Activities/Guppy Spots HubNet.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/BEAGLE Evolution/HubNet Activities/Guppy Spots HubNet.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/BEAGLE Evolution/HubNet Activities/poppyfield.jpg
+estocasticos/NetLogo 6.3.0/models/Curricular Models/BEAGLE Evolution/HubNet Activities/seashore.jpg
+estocasticos/NetLogo 6.3.0/models/Curricular Models/BEAGLE Evolution/HubNet Activities/underwater.jpg
+estocasticos/NetLogo 6.3.0/models/Curricular Models/CT-STEM/1D Motion Maps.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/CT-STEM/1D Motion Maps.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/CT-STEM/Calorimetry.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/CT-STEM/Calorimetry.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/CT-STEM/Free Fall.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/CT-STEM/Free Fall.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/CT-STEM/Habitat Preference Behavior.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/CT-STEM/Habitat Preference Behavior.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/CT-STEM/Hardy Weinberg Equilibrium.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/CT-STEM/Hardy Weinberg Equilibrium.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/CT-STEM/Kidney Reabsorption.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/CT-STEM/Kidney Reabsorption.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/CT-STEM/Mendelian Inheritance.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/CT-STEM/Mendelian Inheritance.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/CT-STEM/Natural Selection - Camouflage.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/CT-STEM/Natural Selection - Camouflage.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/CT-STEM/Pendulum.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/CT-STEM/Pendulum.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/CT-STEM/Volume Temperature.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/CT-STEM/Volume Temperature.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Connected Chemistry/Connected Chemistry 1 Bike Tire.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Connected Chemistry/Connected Chemistry 1 Bike Tire.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Connected Chemistry/Connected Chemistry 2 Changing Pressure.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Connected Chemistry/Connected Chemistry 2 Changing Pressure.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Connected Chemistry/Connected Chemistry 3 Circular Particles.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Connected Chemistry/Connected Chemistry 3 Circular Particles.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Connected Chemistry/Connected Chemistry 4 Number and Pressure.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Connected Chemistry/Connected Chemistry 4 Number and Pressure.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Connected Chemistry/Connected Chemistry 5 Temperature and Pressure.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Connected Chemistry/Connected Chemistry 5 Temperature and Pressure.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Connected Chemistry/Connected Chemistry 6 Volume and Pressure.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Connected Chemistry/Connected Chemistry 6 Volume and Pressure.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Connected Chemistry/Connected Chemistry 7 Ideal Gas Law.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Connected Chemistry/Connected Chemistry 7 Ideal Gas Law.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Connected Chemistry/Connected Chemistry 8 Gas Particle Sandbox.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Connected Chemistry/Connected Chemistry 8 Gas Particle Sandbox.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Connected Chemistry/Connected Chemistry Atmosphere.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Connected Chemistry/Connected Chemistry Atmosphere.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Connected Chemistry/Connected Chemistry Gas Combustion.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Connected Chemistry/Connected Chemistry Gas Combustion.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Connected Chemistry/Connected Chemistry Reversible Reaction.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Connected Chemistry/Connected Chemistry Reversible Reaction.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Connected Chemistry/Connected Chemistry Rusting Reaction.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Connected Chemistry/Connected Chemistry Rusting Reaction.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Connected Chemistry/Connected Chemistry Solid Combustion.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Connected Chemistry/Connected Chemistry Solid Combustion.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/GenEvo/GenEvo 1 Genetic Switch.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/GenEvo/GenEvo 1 Genetic Switch.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/GenEvo/GenEvo 2 Genetic Drift.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/GenEvo/GenEvo 2 Genetic Drift.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/GenEvo/GenEvo 3 Genetic Drift and Natural Selection.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/GenEvo/GenEvo 3 Genetic Drift and Natural Selection.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/GenEvo/GenEvo 4 Competition.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/GenEvo/GenEvo 4 Competition.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/GenEvo/Synthetic Biology - Genetic Switch.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/GenEvo/Synthetic Biology - Genetic Switch.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Lattice Land/Lattice Land - Explore.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Lattice Land/Lattice Land - Explore.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Lattice Land/Lattice Land - Triangles Dissection.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Lattice Land/Lattice Land - Triangles Dissection.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Lattice Land/Lattice Land - Triangles Explore.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Lattice Land/Lattice Land - Triangles Explore.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/MaterialSim/grain-picture.jpg
+estocasticos/NetLogo 6.3.0/models/Curricular Models/MaterialSim/MaterialSim Grain Growth.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/MaterialSim/MaterialSim Grain Growth.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Mind the Gap/MTG 1 Equal Opportunities HubNet.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Mind the Gap/MTG 1 Equal Opportunities HubNet.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Mind the Gap/MTG 2 Random Assignment HubNet.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Mind the Gap/MTG 2 Random Assignment HubNet.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Mind the Gap/MTG 3 Feedback Loop HubNet.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Mind the Gap/MTG 3 Feedback Loop HubNet.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Mind the Gap/sugar-map.txt
+estocasticos/NetLogo 6.3.0/models/Curricular Models/ModelSim/Evolution/Bacteria Food Hunt.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/ModelSim/Evolution/Bacteria Food Hunt.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/ModelSim/Evolution/Bacteria Hunt Speeds.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/ModelSim/Evolution/Bacteria Hunt Speeds.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/ModelSim/Population Biology/Bug Hunt Disruptions.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/ModelSim/Population Biology/Bug Hunt Disruptions.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/ModelSim/Population Biology/Bug Hunt Environmental Changes.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/ModelSim/Population Biology/Bug Hunt Environmental Changes.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/ModelSim/Population Biology/Bug Hunt Predators and Invasive Species - Two Regions.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/ModelSim/Population Biology/Bug Hunt Predators and Invasive Species - Two Regions.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/NIELS/Current in a Wire HubNet.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/NIELS/Current in a Wire HubNet.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/NIELS/Current in a Wire.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/NIELS/Current in a Wire.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/NIELS/Electron Sink.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/NIELS/Electron Sink.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/NIELS/Electrostatics.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/NIELS/Electrostatics.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/NIELS/Parallel Circuit.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/NIELS/Parallel Circuit.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/NIELS/Series Circuit.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/NIELS/Series Circuit.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/PNoM/PNoM 1 Diffusion Sandbox.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/PNoM/PNoM 1 Diffusion Sandbox.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/PNoM/PNoM 2 Diffusion Sensor Sandbox.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/PNoM/PNoM 2 Diffusion Sensor Sandbox.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/PNoM/PNoM 3 Virtual Syringe.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/PNoM/PNoM 3 Virtual Syringe.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/PNoM/PNoM 4 Virtual Syringe Force Graph.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/PNoM/PNoM 4 Virtual Syringe Force Graph.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/PNoM/PNoM 5 Virtual Syringe Temperature Graph.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/PNoM/PNoM 5 Virtual Syringe Temperature Graph.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/PNoM/PNoM 6 Particle Sandbox Gravity.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/PNoM/PNoM 6 Particle Sandbox Gravity.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/PNoM/PNoM 7 Particle Sandbox Intermolecular Forces.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/PNoM/PNoM 7 Particle Sandbox Intermolecular Forces.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/ProbLab/4 Block Stalagmites.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/ProbLab/4 Block Stalagmites.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/ProbLab/4 Block Two Stalagmites.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/ProbLab/4 Block Two Stalagmites.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/ProbLab/4 Blocks.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/ProbLab/4 Blocks.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/ProbLab/Histo Blocks.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/ProbLab/Histo Blocks.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/ProbLab/Sampler Solo.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/ProbLab/Sampler Solo.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Urban Suite/Urban Suite - Awareness.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Urban Suite/Urban Suite - Awareness.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Urban Suite/Urban Suite - Cells.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Urban Suite/Urban Suite - Cells.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Urban Suite/Urban Suite - Economic Disparity.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Urban Suite/Urban Suite - Economic Disparity.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Urban Suite/Urban Suite - Path Dependence.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Urban Suite/Urban Suite - Path Dependence.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Urban Suite/Urban Suite - Pollution.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Urban Suite/Urban Suite - Pollution.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Urban Suite/Urban Suite - Positive Feedback.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Urban Suite/Urban Suite - Positive Feedback.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Urban Suite/Urban Suite - Recycling.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Urban Suite/Urban Suite - Recycling.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Urban Suite/Urban Suite - Sprawl Effect.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Urban Suite/Urban Suite - Sprawl Effect.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Urban Suite/Urban Suite - Structure from Randomness 1.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Urban Suite/Urban Suite - Structure from Randomness 1.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Urban Suite/Urban Suite - Structure from Randomness 2.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Urban Suite/Urban Suite - Structure from Randomness 2.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Urban Suite/Urban Suite - Tijuana Bordertowns.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/Urban Suite/Urban Suite - Tijuana Bordertowns.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/epiDEM/epiDEM Basic.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/epiDEM/epiDEM Basic.png
+estocasticos/NetLogo 6.3.0/models/Curricular Models/epiDEM/epiDEM Travel and Control.nlogo
+estocasticos/NetLogo 6.3.0/models/Curricular Models/epiDEM/epiDEM Travel and Control.png
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/BeeSmart HubNet.nlogo
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/BeeSmart HubNet.png
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Bird Breeders HubNet.png
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Critter Designers HubNet.png
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Dice Stalagmite HubNet.nlogo
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Dice Stalagmite HubNet.png
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Disease Doctors HubNet.nlogo
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Disease Doctors HubNet.png
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Disease HubNet.nlogo
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Disease HubNet.png
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Fish Spotters HubNet.png
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Gridlock HubNet.nlogo
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Gridlock HubNet.png
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Memory HubNet.nlogo
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Memory HubNet.png
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Minority Game HubNet.nlogo
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Minority Game HubNet.png
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Polling HubNet.nlogo
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Polling HubNet.png
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Root Beer Game HubNet.nlogo
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Root Beer Game HubNet.png
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Sampler HubNet.nlogo
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Sampler HubNet.png
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Tragedy of the Commons HubNet.nlogo
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Tragedy of the Commons HubNet.png
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Code Examples/Client Overrides Example HubNet.nlogo
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Code Examples/Client Overrides Example HubNet.png
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Code Examples/Client Perspective Example HubNet.nlogo
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Code Examples/Client Perspective Example HubNet.png
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Code Examples/Template HubNet.nlogo
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Code Examples/Template HubNet.png
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Unverified/Function HubNet.nlogo
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Unverified/Function HubNet.png
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Unverified/Gridlock Alternate HubNet.nlogo
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Unverified/Gridlock Alternate HubNet.png
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Unverified/Investments HubNet.nlogo
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Unverified/Investments HubNet.png
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Unverified/Oil Cartel Alternate HubNet.nlogo
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Unverified/Oil Cartel Alternate HubNet.png
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Unverified/PANDA BEAR HubNet.nlogo
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Unverified/PANDA BEAR HubNet.png
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Unverified/Polling Advanced HubNet.nlogo
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Unverified/Polling Advanced HubNet.png
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Unverified/Predator Prey Game HubNet.nlogo
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Unverified/Predator Prey Game HubNet.png
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Unverified/Prisoners Dilemma HubNet.nlogo
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Unverified/Prisoners Dilemma HubNet.png
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Unverified/Public Good HubNet.nlogo
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Unverified/Public Good HubNet.png
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Unverified/Restaurants HubNet.nlogo
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Unverified/Restaurants HubNet.png
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Unverified/Walking HubNet.nlogo
+estocasticos/NetLogo 6.3.0/models/HubNet Activities/Unverified/Walking HubNet.png
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 0/Turtles Circling Simple.nlogo
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 0/Turtles Circling Simple.png
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 1/Ants Simple.nlogo
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 1/Ants Simple.png
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 2/Heroes and Cowards.nlogo
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 2/Heroes and Cowards.png
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 2/Life Simple.nlogo
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 2/Life Simple.png
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 2/Simple Economy.nlogo
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 2/Simple Economy.png
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 3/DLA Extensions/DLA Simple Extension 1.nlogo
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 3/DLA Extensions/DLA Simple Extension 1.png
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 3/DLA Extensions/DLA Simple Extension 2.nlogo
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 3/DLA Extensions/DLA Simple Extension 2.png
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 3/DLA Extensions/DLA Simple Extension 3.nlogo
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 3/DLA Extensions/DLA Simple Extension 3.png
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 3/DLA Extensions/DLA Simple.nlogo
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 3/DLA Extensions/DLA Simple.png
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 3/El Farol Extensions/El Farol Extension 1.nlogo
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 3/El Farol Extensions/El Farol Extension 1.png
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 3/El Farol Extensions/El Farol Extension 2.nlogo
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 3/El Farol Extensions/El Farol Extension 2.png
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 3/El Farol Extensions/El Farol Extension 3.nlogo
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 3/El Farol Extensions/El Farol Extension 3.png
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 3/El Farol Extensions/El Farol.nlogo
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 3/El Farol Extensions/El Farol.png
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 3/Fire Extensions/Fire Simple Extension 1.nlogo
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 3/Fire Extensions/Fire Simple Extension 1.png
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 3/Fire Extensions/Fire Simple Extension 2.nlogo
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 3/Fire Extensions/Fire Simple Extension 2.png
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 3/Fire Extensions/Fire Simple Extension 3.nlogo
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 3/Fire Extensions/Fire Simple Extension 3.png
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 3/Fire Extensions/Fire Simple.nlogo
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 3/Fire Extensions/Fire Simple.png
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 3/Segregation Extensions/Segregation Simple Extension 1.nlogo
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 3/Segregation Extensions/Segregation Simple Extension 1.png
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 3/Segregation Extensions/Segregation Simple Extension 2.nlogo
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 3/Segregation Extensions/Segregation Simple Extension 2.png
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 3/Segregation Extensions/Segregation Simple Extension 3.nlogo
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 3/Segregation Extensions/Segregation Simple Extension 3.png
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 3/Segregation Extensions/Segregation Simple.nlogo
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 3/Segregation Extensions/Segregation Simple.png
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 4/Wolf Sheep Simple 1.nlogo
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 4/Wolf Sheep Simple 1.png
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 4/Wolf Sheep Simple 2.nlogo
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 4/Wolf Sheep Simple 2.png
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 4/Wolf Sheep Simple 3.nlogo
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 4/Wolf Sheep Simple 3.png
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 4/Wolf Sheep Simple 4.nlogo
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 4/Wolf Sheep Simple 4.png
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 4/Wolf Sheep Simple 5.nlogo
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 4/Wolf Sheep Simple 5.png
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 5/Agentset Efficiency.nlogo
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 5/Agentset Efficiency.png
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 5/Agentset Ordering.nlogo
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 5/Agentset Ordering.png
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 5/Communication-T-T Network Example.nlogo
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 5/Communication-T-T Network Example.png
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 5/Preferential Attachment Simple.nlogo
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 5/Preferential Attachment Simple.png
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 5/Random Network.nlogo
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 5/Random Network.png
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 5/Traffic Basic Adaptive Individuals.nlogo
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 5/Traffic Basic Adaptive Individuals.png
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 5/Traffic Basic Adaptive.nlogo
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 5/Traffic Basic Adaptive.png
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 5/Traffic Basic Utility.nlogo
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 5/Traffic Basic Utility.png
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 5/Traffic Grid Goal.nlogo
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 5/Traffic Grid Goal.png
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 6/Spread of Disease.nlogo
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 6/Spread of Disease.png
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 7/Voting Component Verification.nlogo
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 7/Voting Component Verification.png
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 7/Voting Sensitivity Analysis.nlogo
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 7/Voting Sensitivity Analysis.png
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 8/Arduino Example.nlogo
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 8/Arduino Example.png
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 8/Disease With Android Avoidance HubNet.nlogo
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 8/Disease With Android Avoidance HubNet.png
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 8/Example HubNet.nlogo
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 8/Example HubNet.png
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 8/Run Example.nlogo
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 8/Run Example.png
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 8/Run Result Example.nlogo
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 8/Run Result Example.png
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 8/Sandpile Simple.nlogo
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 8/Sandpile Simple.png
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 8/Simple Machine Learning.nlogo
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 8/Simple Machine Learning.png
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 8/Simple Viral Marketing.nlogo
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 8/Simple Viral Marketing.png
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 8/Ticket Sales.nlogo
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 8/Ticket Sales.png
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 8/arduino-example-sketch/arduino-example-sketch.ino
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 8/data/households.txt
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 8/data/roads.dbf
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 8/data/roads.shp
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 8/data/tracts.dbf
+estocasticos/NetLogo 6.3.0/models/IABM Textbook/chapter 8/data/tracts.shp
+estocasticos/NetLogo 6.3.0/models/Sample Models/Art/Diffusion Graphics.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Art/Diffusion Graphics.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Art/Fireworks.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Art/Fireworks.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Art/Follower.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Art/Follower.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Art/GenJam - Duple.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Art/GenJam - Duple.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Art/Geometron Top-Down.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Art/Geometron Top-Down.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Art/Kaleidoscope.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Art/Kaleidoscope.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Art/Optical Illusions.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Art/Optical Illusions.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Art/Sound Machines.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Art/Sound Machines.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Ant Lines.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Ant Lines.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Ants.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Ants.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Autumn.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Autumn.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/BeeSmart Hive Finding.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/BeeSmart Hive Finding.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Blood Sugar Regulation.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Blood Sugar Regulation.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Daisyworld.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Daisyworld.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Disease Solo.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Disease Solo.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Fairy Circles.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Fairy Circles.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Fireflies.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Fireflies.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Flocking Vee Formations.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Flocking Vee Formations.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Flocking.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Flocking.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Fur.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Fur.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Heatbugs.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Heatbugs.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/HIV.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/HIV.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Honeycomb.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Honeycomb.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Membrane Formation.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Membrane Formation.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Moths.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Moths.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Muscle Development.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Muscle Development.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Rabbits Grass Weeds.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Rabbits Grass Weeds.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Repressilator 1D.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Repressilator 1D.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Rock Paper Scissors.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Rock Paper Scissors.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Shepherds.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Shepherds.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Simple Birth Rates.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Simple Birth Rates.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Slime Mold Network.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Slime Mold Network.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Slime.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Slime.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Sunflower Emergent.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Sunflower Emergent.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Sunflower.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Sunflower.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Termites.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Termites.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Tumor.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Tumor.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Virus Using Discrete Event Simulator.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Virus Using Discrete Event Simulator.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Virus.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Virus.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Wolf Sheep Predation.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Wolf Sheep Predation.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/CRISPR/CRISPR Bacterium LevelSpace.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/CRISPR/CRISPR Bacterium LevelSpace.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/CRISPR/CRISPR Bacterium.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/CRISPR/CRISPR Bacterium.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/CRISPR/CRISPR Ecosystem LevelSpace.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/CRISPR/CRISPR Ecosystem LevelSpace.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/CRISPR/CRISPR Ecosystem.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/CRISPR/CRISPR Ecosystem.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/CRISPR/crispr-locus.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Evolution/Americas.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Evolution/Anisogamy.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Evolution/Anisogamy.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Evolution/Bacterial Infection.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Evolution/Bacterial Infection.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Evolution/Bug Hunt Camouflage.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Evolution/Bug Hunt Camouflage.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Evolution/Bug Hunt Speeds.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Evolution/Bug Hunt Speeds.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Evolution/Echo.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Evolution/Echo.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Evolution/glacier.jpg
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Evolution/Mammoths.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Evolution/Mammoths.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Evolution/Mimicry.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Evolution/Mimicry.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Evolution/Peppered Moths.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Evolution/Peppered Moths.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Evolution/poppyfield.jpg
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Evolution/seashore.jpg
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Evolution/Sex Ratio Equilibrium.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Evolution/Sex Ratio Equilibrium.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Evolution/Sunflower Biomorphs.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Evolution/Sunflower Biomorphs.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Evolution/Vision Evolution.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Evolution/Vision Evolution.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Evolution/Wolf Sheep Stride Inheritance.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Evolution/Wolf Sheep Stride Inheritance.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Evolution/Genetic Drift/GenDrift P global.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Evolution/Genetic Drift/GenDrift P global.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Evolution/Genetic Drift/GenDrift P local.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Evolution/Genetic Drift/GenDrift P local.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Evolution/Genetic Drift/GenDrift T interact.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Evolution/Genetic Drift/GenDrift T interact.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Evolution/Genetic Drift/GenDrift T reproduce.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Evolution/Genetic Drift/GenDrift T reproduce.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Unverified/Algae.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Unverified/Algae.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Unverified/Plant Growth.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Biology/Unverified/Plant Growth.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Boiling.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Boiling.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Chaos in a Box.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Chaos in a Box.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Gas Chromatography.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Gas Chromatography.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Hydrogen Gas Production.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Hydrogen Gas Production.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Ising.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Ising.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Kicked Rotator.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Kicked Rotator.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Kicked Rotators.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Kicked Rotators.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Sand.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Sand.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Sandpile.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Sandpile.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Thermostat.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Thermostat.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Turbulence.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Turbulence.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Chemical Reactions/B-Z Reaction.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Chemical Reactions/B-Z Reaction.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Chemical Reactions/Chemical Equilibrium.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Chemical Reactions/Chemical Equilibrium.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Chemical Reactions/Enzyme Kinetics.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Chemical Reactions/Enzyme Kinetics.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Chemical Reactions/Radical Polymerization.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Chemical Reactions/Radical Polymerization.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Chemical Reactions/Simple Kinetics 1.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Chemical Reactions/Simple Kinetics 1.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Chemical Reactions/Simple Kinetics 2.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Chemical Reactions/Simple Kinetics 2.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Chemical Reactions/Simple Kinetics 3.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Chemical Reactions/Simple Kinetics 3.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Chemical Reactions/Acids and Bases/Buffer.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Chemical Reactions/Acids and Bases/Buffer.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Chemical Reactions/Acids and Bases/Strong Acid.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Chemical Reactions/Acids and Bases/Strong Acid.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Chemical Reactions/Acids and Bases/Weak Acid.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Chemical Reactions/Acids and Bases/Weak Acid.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Chemical Reactions/Acids and Bases/Unverified/Diprotic Acid.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Chemical Reactions/Acids and Bases/Unverified/Diprotic Acid.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Diffusion Limited Aggregation/DLA Alternate Linear.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Diffusion Limited Aggregation/DLA Alternate Linear.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Diffusion Limited Aggregation/DLA Alternate.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Diffusion Limited Aggregation/DLA Alternate.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Diffusion Limited Aggregation/DLA.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Diffusion Limited Aggregation/DLA.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/GasLab/GasLab Adiabatic Piston.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/GasLab/GasLab Adiabatic Piston.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/GasLab/GasLab Atmosphere.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/GasLab/GasLab Atmosphere.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/GasLab/GasLab Circular Particles.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/GasLab/GasLab Circular Particles.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/GasLab/GasLab Free Gas.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/GasLab/GasLab Free Gas.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/GasLab/GasLab Gas in a Box.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/GasLab/GasLab Gas in a Box.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/GasLab/GasLab Gravity Box.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/GasLab/GasLab Gravity Box.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/GasLab/GasLab Isothermal Piston.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/GasLab/GasLab Isothermal Piston.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/GasLab/GasLab Maxwells Demon.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/GasLab/GasLab Maxwells Demon.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/GasLab/GasLab Single Collision.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/GasLab/GasLab Single Collision.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/GasLab/GasLab Two Gas.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/GasLab/GasLab Two Gas.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/GasLab/Unverified/GasLab Heat Box.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/GasLab/Unverified/GasLab Heat Box.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/GasLab/Unverified/GasLab Moving Piston.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/GasLab/Unverified/GasLab Moving Piston.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/GasLab/Unverified/GasLab Pressure Box.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/GasLab/Unverified/GasLab Pressure Box.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/GasLab/Unverified/GasLab Second Law.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/GasLab/Unverified/GasLab Second Law.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Materials Science/Dislocation Motion and Deformation.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Materials Science/Dislocation Motion and Deformation.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Materials Science/Heat Diffusion.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Materials Science/Heat Diffusion.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Materials Science/Molecular Dynamics Lennard-Jones.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Materials Science/Molecular Dynamics Lennard-Jones.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Materials Science/Monte Carlo Lennard-Jones.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Materials Science/Monte Carlo Lennard-Jones.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Materials Science/Polymer Dynamics.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Materials Science/Polymer Dynamics.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Materials Science/Solid Diffusion.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Materials Science/Solid Diffusion.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Materials Science/Crystallization/Crystallization Basic.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Materials Science/Crystallization/Crystallization Basic.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Materials Science/Crystallization/Crystallization Directed.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Materials Science/Crystallization/Crystallization Directed.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Materials Science/Crystallization/Crystallization Moving.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Materials Science/Crystallization/Crystallization Moving.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Mechanics/Random Balls.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Mechanics/Random Balls.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Mechanics/Unverified/Gravitation.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Mechanics/Unverified/Gravitation.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Mechanics/Unverified/N-Bodies.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Mechanics/Unverified/N-Bodies.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Radioactivity/Decay.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Radioactivity/Decay.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Radioactivity/Unverified/Reactor Top Down.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Radioactivity/Unverified/Reactor Top Down.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Radioactivity/Unverified/Reactor X-Section.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Radioactivity/Unverified/Reactor X-Section.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Unverified/Osmotic Pressure.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Unverified/Osmotic Pressure.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Unverified/Scattering.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Unverified/Scattering.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Waves/Lattice Gas Automaton.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Waves/Lattice Gas Automaton.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Waves/Rope.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Waves/Rope.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Waves/Wave Machine.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Waves/Wave Machine.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Waves/Unverified/Doppler.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Waves/Unverified/Doppler.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Waves/Unverified/Raindrops.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Waves/Unverified/Raindrops.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Waves/Unverified/Speakers.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Chemistry & Physics/Waves/Unverified/Speakers.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Artificial Neural Net - Multilayer.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Artificial Neural Net - Multilayer.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Artificial Neural Net - Perceptron.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Artificial Neural Net - Perceptron.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Dining Philosophers.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Dining Philosophers.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Hex Cell Aggregation.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Hex Cell Aggregation.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/K-Means Clustering.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/K-Means Clustering.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/PageRank.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/PageRank.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Painted Desert Challenge.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Painted Desert Challenge.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Particle Swarm Optimization.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Particle Swarm Optimization.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Robby the Robot.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Robby the Robot.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Robotic Factory Base Image.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Robotic Factory.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Robotic Factory.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Simple Genetic Algorithm.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Simple Genetic Algorithm.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/SmoothLife.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/SmoothLife.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Turing Machine 2D.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Turing Machine 2D.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Vants.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Vants.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Wandering Letters.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Wandering Letters.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Cellular Automata/Brian's Brain.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Cellular Automata/Brian's Brain.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Cellular Automata/CA 1D Elementary.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Cellular Automata/CA 1D Elementary.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Cellular Automata/CA 1D Totalistic.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Cellular Automata/CA 1D Totalistic.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Cellular Automata/CA 1D-Squaring.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Cellular Automata/CA 1D-Squaring.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Cellular Automata/CA Continuous.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Cellular Automata/CA Continuous.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Cellular Automata/CA Stochastic.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Cellular Automata/CA Stochastic.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Cellular Automata/Life Turtle-Based.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Cellular Automata/Life Turtle-Based.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Cellular Automata/Life.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Cellular Automata/Life.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Cellular Automata/CA 1D Simple Examples/CA 1D Rule 30 Turtle.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Cellular Automata/CA 1D Simple Examples/CA 1D Rule 30 Turtle.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Cellular Automata/CA 1D Simple Examples/CA 1D Rule 30.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Cellular Automata/CA 1D Simple Examples/CA 1D Rule 30.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Cellular Automata/CA 1D Simple Examples/CA 1D Rule 90.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Cellular Automata/CA 1D Simple Examples/CA 1D Rule 90.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Cellular Automata/CA 1D Simple Examples/CA 1D Rule 110.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Cellular Automata/CA 1D Simple Examples/CA 1D Rule 110.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Cellular Automata/CA 1D Simple Examples/CA 1D Rule 250.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Cellular Automata/CA 1D Simple Examples/CA 1D Rule 250.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Particle Systems/Particle System Basic.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Particle Systems/Particle System Basic.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Particle Systems/Particle System Flame.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Particle Systems/Particle System Flame.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Particle Systems/Particle System Fountain.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Particle Systems/Particle System Fountain.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Particle Systems/Particle System Waterfall.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Particle Systems/Particle System Waterfall.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Unverified/Merge Sort.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Unverified/Merge Sort.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Unverified/Simulated Annealing.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Computer Science/Unverified/Simulated Annealing.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Earth Science/Climate Change.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Earth Science/Climate Change.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Earth Science/Continental Divide.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Earth Science/Continental Divide.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Earth Science/Erosion.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Earth Science/Erosion.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Earth Science/Fire.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Earth Science/Fire.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Earth Science/Grand Canyon data.txt
+estocasticos/NetLogo 6.3.0/models/Sample Models/Earth Science/Grand Canyon.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Earth Science/Grand Canyon.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Earth Science/Percolation.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Earth Science/Percolation.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Earth Science/River Meanders.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Earth Science/River Meanders.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Earth Science/Unverified/Lightning.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Earth Science/Unverified/Lightning.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Games/Ant Adaptation.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Games/Ant Adaptation.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Games/ant_adaptation_figure.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Games/Frogger.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Games/Frogger.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Games/Lunar Lander.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Games/Lunar Lander.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Games/Minesweeper.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Games/Minesweeper.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Games/Pac-Man.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Games/Pac-Man.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Games/pacmap1.csv
+estocasticos/NetLogo 6.3.0/models/Sample Models/Games/pacmap2.csv
+estocasticos/NetLogo 6.3.0/models/Sample Models/Games/pacmap3.csv
+estocasticos/NetLogo 6.3.0/models/Sample Models/Games/pacmap4.csv
+estocasticos/NetLogo 6.3.0/models/Sample Models/Games/pacmap5.csv
+estocasticos/NetLogo 6.3.0/models/Sample Models/Games/Planarity.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Games/Planarity.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Games/Tetris.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Games/Tetris.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Games/Unverified/Pac-Man Level Editor.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Games/Unverified/Pac-Man Level Editor.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Games/Unverified/Projectile Attack.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Games/Unverified/Projectile Attack.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/3D Solids.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/3D Solids.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/3D Surface.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/3D Surface.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Color Fractions.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Color Fractions.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Conic Sections 1.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Conic Sections 1.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Conic Sections 2.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Conic Sections 2.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Division.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Division.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Mousetraps.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Mousetraps.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Pursuit.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Pursuit.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Rugby.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Rugby.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Turtles Circling.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Turtles Circling.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Vector Fields.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Vector Fields.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Voronoi - Emergent.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Voronoi - Emergent.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Voronoi.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Voronoi.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Fractals/Koch Curve.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Fractals/Koch Curve.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Fractals/L-System Fractals.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Fractals/L-System Fractals.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Fractals/Mandelbrot.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Fractals/Mandelbrot.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Fractals/Sierpinski Simple.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Fractals/Sierpinski Simple.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Fractals/Star Fractal.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Fractals/Star Fractal.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Fractals/Tree Simple.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Fractals/Tree Simple.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Probability/Binomial Rabbits.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Probability/Binomial Rabbits.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Probability/Birthdays.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Probability/Birthdays.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Probability/Galton Box.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Probability/Galton Box.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Probability/Random Walk 360.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Probability/Random Walk 360.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Probability/Three Doors.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Probability/Three Doors.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Probability/ProbLab/Dice Stalagmite.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Probability/ProbLab/Dice Stalagmite.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Probability/ProbLab/Dice.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Probability/ProbLab/Dice.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Probability/ProbLab/Prob Graphs Basic.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Probability/ProbLab/Prob Graphs Basic.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Probability/ProbLab/ProbLab Genetics.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Probability/ProbLab/ProbLab Genetics.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Probability/ProbLab/Random Basic.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Probability/ProbLab/Random Basic.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Probability/ProbLab/Stochastic Patchwork.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Probability/ProbLab/Stochastic Patchwork.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Probability/ProbLab/Unverified/9-Blocks.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Probability/ProbLab/Unverified/9-Blocks.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Probability/ProbLab/Unverified/Central Limit Theorem.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Probability/ProbLab/Unverified/Central Limit Theorem.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Probability/ProbLab/Unverified/Equidistant Probability.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Probability/ProbLab/Unverified/Equidistant Probability.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Probability/ProbLab/Unverified/Expected Value Advanced.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Probability/ProbLab/Unverified/Expected Value Advanced.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Probability/ProbLab/Unverified/Expected Value.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Probability/ProbLab/Unverified/Expected Value.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Probability/ProbLab/Unverified/Partition Permutation Distribution.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Probability/ProbLab/Unverified/Partition Permutation Distribution.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Probability/ProbLab/Unverified/Random Basic Advanced.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Probability/ProbLab/Unverified/Random Basic Advanced.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Probability/ProbLab/Unverified/Random Combinations and Permutations.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Probability/ProbLab/Unverified/Random Combinations and Permutations.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Probability/ProbLab/Unverified/Sample Stalagmite.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Probability/ProbLab/Unverified/Sample Stalagmite.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Probability/ProbLab/Unverified/Shuffle Board.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Probability/ProbLab/Unverified/Shuffle Board.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Probability/Unverified/Random Walk Left Right.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Probability/Unverified/Random Walk Left Right.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Unverified/PANDA BEAR Solo.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Unverified/PANDA BEAR Solo.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Unverified/Surface Walking 2D.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Mathematics/Unverified/Surface Walking 2D.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Networks/Diffusion on a Directed Network.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Networks/Diffusion on a Directed Network.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Networks/Giant Component.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Networks/Giant Component.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Networks/Preferential Attachment.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Networks/Preferential Attachment.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Networks/Small Worlds.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Networks/Small Worlds.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Networks/Team Assembly.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Networks/Team Assembly.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Networks/Virus on a Network.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Networks/Virus on a Network.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Philosophy/Signaling Game.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Philosophy/Signaling Game.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Psychology/Piaget-Vygotsky Game.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Psychology/Piaget-Vygotsky Game.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Ethnocentrism.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Ethnocentrism.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Language Change.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Language Change.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Minority Game.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Minority Game.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Party.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Party.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Paths.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Paths.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Rebellion.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Rebellion.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Rumor Mill.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Rumor Mill.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Scatter.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Scatter.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Segregation.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Segregation.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Taxi Cabs.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Taxi Cabs.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Traffic 2 Lanes.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Traffic 2 Lanes.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Traffic Basic.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Traffic Basic.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Traffic Grid.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Traffic Grid.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Voting.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Voting.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Distribution Center Discrete Event Simulator/Distribution Center Discrete Event Simulator.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Distribution Center Discrete Event Simulator/Distribution Center Discrete Event Simulator.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Distribution Center Discrete Event Simulator/time-series.nls
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Economics/Bidding Market.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Economics/Bidding Market.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Economics/Braess Paradox.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Economics/Braess Paradox.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Economics/Fruit Wars.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Economics/Fruit Wars.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Economics/Hotelling's Law.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Economics/Hotelling's Law.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Economics/Limited Order Book.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Economics/Limited Order Book.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Economics/Oil Cartel HubNet.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Economics/Oil Cartel HubNet.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Economics/Wealth Distribution.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Economics/Wealth Distribution.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Economics/Sugarscape/sugar-map.txt
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Economics/Sugarscape/Sugarscape 1 Immediate Growback.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Economics/Sugarscape/Sugarscape 1 Immediate Growback.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Economics/Sugarscape/Sugarscape 2 Constant Growback.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Economics/Sugarscape/Sugarscape 2 Constant Growback.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Economics/Sugarscape/Sugarscape 3 Wealth Distribution.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Economics/Sugarscape/Sugarscape 3 Wealth Distribution.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Economics/Unverified/Bank Reserves.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Economics/Unverified/Bank Reserves.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Economics/Unverified/Cash Flow.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Economics/Unverified/Cash Flow.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Prisoner's Dilemma/PD Basic Evolutionary.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Prisoner's Dilemma/PD Basic Evolutionary.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Prisoner's Dilemma/PD Basic.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Prisoner's Dilemma/PD Basic.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Prisoner's Dilemma/PD N-Person Iterated.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Prisoner's Dilemma/PD N-Person Iterated.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Prisoner's Dilemma/PD Two Person Iterated.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Prisoner's Dilemma/PD Two Person Iterated.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Unverified/Artificial Anasazi.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Unverified/Artificial Anasazi.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Unverified/Traffic Intersection.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Unverified/Traffic Intersection.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Unverified/data/adjustedPDSI.txt
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Unverified/data/environment.txt
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Unverified/data/log.txt
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Unverified/data/map.txt
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Unverified/data/settlements.txt
+estocasticos/NetLogo 6.3.0/models/Sample Models/Social Science/Unverified/data/water.txt
+estocasticos/NetLogo 6.3.0/models/Sample Models/System Dynamics/Exponential Growth.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/System Dynamics/Exponential Growth.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/System Dynamics/Logistic Growth.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/System Dynamics/Logistic Growth.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/System Dynamics/Wolf Sheep Predation (Docked Hybrid).nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/System Dynamics/Wolf Sheep Predation (Docked Hybrid).png
+estocasticos/NetLogo 6.3.0/models/Sample Models/System Dynamics/Wolf Sheep Predation (System Dynamics).nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/System Dynamics/Wolf Sheep Predation (System Dynamics).png
+estocasticos/NetLogo 6.3.0/models/Sample Models/System Dynamics/Unverified/Tabonuco Yagrumo Hybrid.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/System Dynamics/Unverified/Tabonuco Yagrumo Hybrid.png
+estocasticos/NetLogo 6.3.0/models/Sample Models/System Dynamics/Unverified/Tabonuco Yagrumo.nlogo
+estocasticos/NetLogo 6.3.0/models/Sample Models/System Dynamics/Unverified/Tabonuco Yagrumo.png
+estocasticos/NetLogo 6.3.0/natives/linux-amd64/libgluegen_rt.so
+estocasticos/NetLogo 6.3.0/natives/linux-amd64/libjogl_desktop.so
+estocasticos/NetLogo 6.3.0/natives/linux-amd64/libnativewindow_awt.so
+estocasticos/NetLogo 6.3.0/natives/linux-amd64/libnativewindow_drm.so
+estocasticos/NetLogo 6.3.0/natives/linux-amd64/libnativewindow_x11.so
+estocasticos/NetLogo 6.3.0/natives/linux-i586/libgluegen_rt.so
+estocasticos/NetLogo 6.3.0/natives/linux-i586/libjogl_desktop.so
+estocasticos/NetLogo 6.3.0/natives/linux-i586/libnativewindow_awt.so
+estocasticos/NetLogo 6.3.0/natives/linux-i586/libnativewindow_drm.so
+estocasticos/NetLogo 6.3.0/natives/linux-i586/libnativewindow_x11.so
