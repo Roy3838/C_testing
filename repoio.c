@@ -4,21 +4,7 @@
 #include <time.h>
 
 
-double roy_uniform(#include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
-#include <time.h>
-
-
 double roy_uniform(double a, double b, double decimales){
-    /*#include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
-#include <time.h>
-
-
-double roy_uniform(double a, double b, double decimales){
-    /*ouble a, double b, double decimales){
     /*
     Funcion que genera un numero aleatorio uniforme entre a y b
     con una cantidad de decimales dada.
@@ -76,7 +62,7 @@ int main(){
             double p_1[] = {p_0[0] + x_1 ,p_0[1] + y_1};
             double valor_p_1 = f_x(p_1[0],p_1[1]);
             double valor_p_0 = f_x(p_0[0],p_0[1]);
-            contador++;
+            
             if (valor_p_1 < valor_p_0){
                 p_0[0] = p_1[0];
                 p_0[1] = p_1[1];
