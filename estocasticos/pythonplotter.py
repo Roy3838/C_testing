@@ -16,17 +16,24 @@ import numpy as np
 # plot data in data/gamma.txt
 
 #using rd
-# MATLABvalues=pd.read_csv('data/expMATLAB.csv', sep=',', header=None).values[0:10]
-# print(MATLABvalues[0])
-# plt.hist(MATLABvalues[0], bins=100, rwidth=0.9, density=True)
-# plt.show()
+MATLABvalues=pd.read_csv('data/gammaMATLAB.csv', sep=',', header=None).values[0:10]
+#print(MATLABvalues[0])
+plt.hist(MATLABvalues[0], bins=100, rwidth=0.9, density=True)
+
+#plot analytical gamma function
+x=np.linspace(0,10,100)
+y=1/(np.exp(x)*np.power(x,1))
+plt.plot(x,y)
+
+
+plt.show()
 
 # plt.hist(pd.read_csv('data/exp.txt', sep='\t', header=None).values, bins=100, rwidth=0.9, density=True,color='red')
 # plt.show()
 
 # make scatter plot of data/repoio.txt
-data=pd.read_csv('data/puntos_repoio.csv', header=None)
-print(data.head().values)
+# data=pd.read_csv('data/puntos_repoio.csv', header=None)
+# print(data.head().values)
 # make a gif showing the point movement
 
 
