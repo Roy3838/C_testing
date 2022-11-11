@@ -13,7 +13,14 @@ def f_x(x):
     return np.sqrt(1 - np.exp(-x**2))
 
 # llamar metodo
-resultado = montecarlo_simple(f_x, 0, np.sqrt(2)*2, 100000)
+resultado=[]
+for i in range(100):
+    tf = np.sqrt(2)*2
+    n=i/100
+    resultado.append( montecarlo_simple(f_x, 0, n*tf, 1000))
 
-print(resultado)
+dominio=np.linspace(0,tf,100)
+
+plt.plot(dominio,resultado)
+plt.show()
 

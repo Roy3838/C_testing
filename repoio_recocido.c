@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <math.h>
 #include <time.h>
+#include <malloc.h>
 
 double roy_uniform(double a, double b, double decimales){
     /*
@@ -10,9 +11,9 @@ double roy_uniform(double a, double b, double decimales){
     */
     b = b*pow(10,decimales);
     a = a*pow(10,decimales);
-    double r = rand() % (int)(b-a) + a;
-    r=r/pow(10,decimales);
-    return r;
+    int r = rand() % (int)(b-a) + a;
+    double m=(double)r/pow(10,decimales);
+    return m;
 }
 
 double f_x_y(double x, double y){
@@ -21,38 +22,29 @@ double f_x_y(double x, double y){
 
 }
 
-int main(){
-    // Simulated Annealing
-    double seed = 10;
-    int range= 100;
-    clock_t start, end;
-    double cpu_time_used;
-    // change rand() seed dependent of time
-    srand(time(NULL));
-    double x_0 = roy_uniform(-50,50,2);
-    double y_0 = roy_uniform(-50,50,2);
-    double p_0[] = {x_0,y_0};
-    double T_0 = 389;
-    double T_min = 0.01;
-    double p_1[] = {p_0[0] ,p_0[1]};
-    int resolucion = 1000;
-    
-    // guardar la trayectoria
-    double x[100000];
-    double y[100000];
-    int contador = 0;
+double *repoios_recocidos(double alpha, int L, double T_0, double T_min, int seed){
+    //dynamically allocate memory using malloc()
+    double *ret = (double *)malloc(2 * sizeof(double));
 
-    int L = 100;
-    printf("El inicial es: %f , %f \n",p_0[0],p_0[1]);
-    start = clock();
+    // Simulated Annealing
+    srand(seed);
+    double x_0 = roy_uniform(-50,50,5);
+    double y_0 = roy_uniform(-50,50,5);
+    double p_0[] = {x_0,y_0};
+
+    double p_1[] = {p_0[0] ,p_0[1]};
+    // double alpha = 0.99;
+    // int L = 100;
+    // double T_0 = 389;
+    // double T_min = 0.01;
 
     while(T_0 > T_min){
-        T_0=0.99*T_0;
+        T_0=alpha*T_0;
         for(int i = 0; i<L; i++){
             // double x_1 = (rand()%10000)*0.0001 - 0.5; // = uniform(-0.5,0.5) pero con 0.01 
             // double y_1 = (rand()%10000)*0.0001 - 0.5;
-            double x_1 = roy_uniform(-0.5,0.5,3);
-            double y_1 = roy_uniform(-0.5,0.5,3);
+            double x_1 = roy_uniform(-0.5,0.5,5);
+            double y_1 = roy_uniform(-0.5,0.5,5);
             double p_1[] = {p_0[0] + x_1 ,p_0[1] + y_1};
             double valor_p_1 = f_x_y(p_1[0],p_1[1]);
             double valor_p_0 = f_x_y(p_0[0],p_0[1]);
@@ -73,19 +65,26 @@ int main(){
             }
 
         }
-    end = clock();
-    cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
-    printf("%f seconds \n",cpu_time_used);
+    
+    ret[0] = p_0[0];
+    ret[1] = p_0[1];
+    return ret;
+}
 
-    printf("Cero en : %f , %f \n",p_0[0],p_0[1]);
-    printf("iteraciones : %d \n",contador);
+int main(){
+    double alpha = 0.99;
+    double L = 1000;
+    double T_0 = 300.0;
+    double T_min = 0.001;
+    // int p_0 = {0,0};
+    // printf("El minimo es: %f , %f \n",p_0[0],p_0[1]);
+    for(int i =1; i<10; i++){
+        double *p_0 = repoios_recocidos(alpha,L,T_0,T_min,i);
+        printf("El minimo es: %f , %f \n",p_0[0],p_0[1]);
+    }
 
     return 0;
 }
-
-
-
-
 
 
 

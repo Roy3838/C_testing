@@ -40,9 +40,34 @@ int main(){
     }
     double ro_f=sqrt(2)*2;
     double ro_i=0;
-
-
-    printf("F(x) = %f \n",montecarlo(ro_i,ro_f));
+    int steps = 100;
+    double F[steps];
+    double ro[steps];
+    double dominio[steps];
+    //linspace ro
+    double delta = (ro_f-ro_i)/steps;
+    for (int i=1; i<steps; i++){
+        ro[i] = ro_i + i*delta;
+        dominio[i] = (double)i*2/steps;
+        F[i] = montecarlo(ro_i,ro[i]);
+    }
+    printf("compute over");
+    /*
+    PLOT F[ro] vs ro
+    */
+    //PLOTTING DE LA FRECUENCIA RELATIVA A TRAVES DEL TIEMPO
+    FILE *fpPuntos=fopen("data/monte_carlo.txt","w"); // se crea un archivo de texto para guardar los valores del dado
+    for (int i=0; i<100; i++){
+            fprintf(fpPuntos,"%f %f \n", dominio[i],F[i]);
+    }
+    fclose(fpPuntos);
+    FILE *fp = popen("gnuplot -persist", "w");
+    // set gnuplot figure properties
+    fprintf(fp, "set title \"Monte Carlo Integration\"\n");
+    fprintf(fp, "set xlabel \"r\"\n");
+    fprintf(fp, "set ylabel \"F(r)\"\n");
+    fprintf(fp, "plot \"data/monte_carlo.txt\" with lines\n");   
+    
 
     return 0;
 
