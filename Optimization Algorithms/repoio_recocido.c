@@ -72,16 +72,33 @@ double *repoios_recocidos(double alpha, int L, double T_0, double T_min, int see
 }
 
 int main(){
+    /*
+    PARAMETROS DAN 85.4% de exitos
     double alpha = 0.99;
     double L = 1000;
     double T_0 = 300.0;
     double T_min = 0.001;
+    */
+    double alpha = 0.9;
+    double L = 500;
+    double T_0 = 150.0;
+    double T_min = 0.001;
+
+
     // int p_0 = {0,0};
     // printf("El minimo es: %f , %f \n",p_0[0],p_0[1]);
-    for(int i =1; i<10; i++){
-        double *p_0 = repoios_recocidos(alpha,L,T_0,T_min,i);
+    int time_seed= time(NULL);
+    int contador_exitos = 0;
+    int ciclos = 100;
+    for(int i =0; i<ciclos; i++){
+        double *p_0 = repoios_recocidos(alpha,L,T_0,T_min,i*time_seed);
         printf("El minimo es: %f , %f \n",p_0[0],p_0[1]);
+        if (p_0[0] < 0.1 && p_0[0] > -0.1 && p_0[1] < 0.1 && p_0[1] > -0.1){
+            contador_exitos++;
+        }
     }
+    printf("El numero de exitos es: %d \n",contador_exitos);
+    printf("el total de ciclos es: %d \n",ciclos);
 
     return 0;
 }

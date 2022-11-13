@@ -11,9 +11,6 @@ double F_x_exp_inv(double u,double mu) {
 // IN C
 double F_x_gamma_inv(double u,double a,double mu) {
     double x = 0;
-    for (int i = 0; i < a; i++) {
-        x += F_x_exp_inv(1-u,mu);
-    }
     return x;
 }
 
@@ -53,7 +50,7 @@ int main(){
 
 
     double mu = 1;
-    double alpha = 1;
+    double alpha = 2;
     double u[iterations];
     double x_exp[iterations];
     double x_gamma[iterations];
@@ -68,8 +65,14 @@ int main(){
     */
 
     // Se distribuyen los numeros aleatorios en la distribucion gamma
-    for(int i = 1; i < iterations; i++) {
-        x_gamma[i] = F_x_gamma_inv(u_x[i] ,alpha,mu);
+    int contador = 0;
+    for(int i = 1; i < 3; i++) {
+        double x = 0;
+        for (int k = 0; k < alpha; i++) {
+            x += F_x_exp_inv(u_x[contador],mu);
+            contador++;
+        }
+        x_gamma[i] = x;
     }
 
     /*
