@@ -1,27 +1,36 @@
 import random as rd
 import matplotlib.pyplot as plt
 import numpy as np
+""" Demostrando que la distribucion gamma es la sumatoria de exp()"""
+def gamma_dist(alpha, beta):
+    sum = 0
+    for i in range(alpha):
+        sum += rd.expovariate(beta)
+    return sum
 
-# reverse engineer the gamma distribution number generator
+# Se hacen los dos arreglos, uno con gamma() y otro con el metodo gamma basado en exp().
+gamma1=[rd.gammavariate(1.0, 1.0) for i in range(100)]
+gamma2=[gamma_dist(1,1) for i in range(100)]
 
-rd.seed(1234)
+#curva teorica de la distribucion gamma (pdf)
+x = np.linspace(0, 10, 100)
+y = x**(1-1)*np.exp(-x)
 
-#uniform = [rd.random() for i in range(10)]
+#Sacar la varianza de las distribuciones
+var1=np.var(gamma1)
+var2=np.var(gamma2)
 
-def gamma(alpha, beta):
+#Sacar la media de las distribuciones
+mean1=np.mean(gamma1)
+mean2=np.mean(gamma2)
 
-    ainv = np.sqrt(2.0 * alpha - 1.0)
-    u1 = rd.random()
-    u2 = 1.0 - rd.random()
-    bbb = alpha - np.log(4)
-    ccc = alpha + ainv
-    v = np.log(u1 / (1.0 - u1)) / ainv
-    x = alpha * np.exp(v)
-    z = u1 * u1 * u2
-    return x * beta
-
-random_gamma2 = [gamma(1,1) for i in range(10)]
-random_gamma = [rd.gammavariate(1, 1) for i in range(10) ]
-
-print(random_gamma)
-print(random_gamma2)
+#graph both distributions
+plt.hist(gamma2, alpha=0.5,  label='Gamma Random', color='green', bins=20, density=True)
+plt.hist(gamma1, alpha=0.5, label='Ganna Funcion', color='blue', bins=20, density=True)
+plt.plot(x, y, label='Gamma Teorica', color='red')
+# poner las varianzas y medias en el grafico
+plt.text(0.7, 0.5, 'Varianza 1: '+str(np.round(var1,2)), transform=plt.gca().transAxes)
+plt.text(0.7, 0.4, 'Varianza 2: '+str(np.round(var2,2)), transform=plt.gca().transAxes)
+plt.text(0.7, 0.3, 'Media 1: '+str(np.round(mean1,2)), transform=plt.gca().transAxes)
+plt.text(0.7, 0.2, 'Media 2: '+str(np.round(mean2,2)), transform=plt.gca().transAxes)
+plt.show()

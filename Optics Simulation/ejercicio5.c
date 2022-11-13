@@ -4,6 +4,10 @@
 #include <time.h>
 #include <malloc.h>
 #include <complex.h>
+/*
+NO CUAJO VOY A HACERLO EN PYTHON
+*/
+
 
 double complex gauss(double complex x,double complex y,double complex w0){
     return cexp(-(cpow(x,2)+cpow(y,2))/cpow(w0,2));
