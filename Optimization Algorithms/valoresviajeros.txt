@@ -1,0 +1,13 @@
+VALORES GANADORES aprox 127.24
+double alpha = 0.99;
+int L = 1000;
+double T_0 = 300;
+double T_min = 0.000001;
+
+MAS RAPIDO
+double alpha = 0.95;
+int L = 5000;
+double T_0 = 300;
+double T_min = 0.000000001;
+
+

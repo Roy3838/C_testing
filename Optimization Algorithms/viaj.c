@@ -20,6 +20,8 @@ double roy_uniform(double a, double b, double decimales){
 
 int main(){
     static int ciudades = 100;
+
+    // Metodo que regresa la distancia total recorrida por el viajero
     double dist(int ciudades, double ps[2][ciudades]){
         double distancia = 0;
         //inicializamos variables para iterar sobre memoria fija
@@ -50,28 +52,25 @@ int main(){
         return distancia;
     }
 
+    /*
+                    Metodo modifica la matrix dada para que sea un acomodo vecino al pasado
+    */
     void vecindad(int ciudades, double ps[2][ciudades]){
         int index_swaps=1;
         for(int v=1; v<=index_swaps; v++){   
             //random index swap
             int i = rand() % (int)(ciudades-1) ;
             int j = rand() % (int)(ciudades-1) ;
-            // make sure i and j are different
+            //asegurarse que j y i son diferentes
             while (i == j){
                 j = rand() % (int)(ciudades-1) + 1;
             }
-            //printf("i: %d, j: %d \n", i, j);
             double tempx=ps[0][i];
             double tempy=ps[1][i];
             ps[0][i]=ps[0][j];
             ps[1][i]=ps[1][j];
             ps[0][j]=tempx;
             ps[1][j]=tempy;
-        // make ps_1 equal to ps
-        // for (int i = 0; i < ciudades; i++){
-        //     ps_1[0][i] = ps[0][i];
-        //     ps_1[1][i] = ps[1][i];
-        // }
     }
     }
 
@@ -85,26 +84,18 @@ int main(){
     srand(time(NULL));
     clock_t start, end;
     double cpu_time_used;
-    // test the vecindad method SI FUNCIONO ALV " :D "- Copilot
 
     /*
-    PARTE DE GENERAR LOS DATOS DE LAS CIUDADES
+                                    PARTE DE GENERAR LOS DATOS DE LAS CIUDADES
     */
-    
-    
-    //se generan las ciudades en un circulo
-    // for (int i = 0; i < ciudades; i++){
-    //     ps[0][i] = cos(2*3.1416*i/ciudades);
-    //     ps[1][i] = sin(2*3.1416*i/ciudades);
-    // }
 
-    // se generan ciudades en numeros random de -2 a 2
+    // Se generan ciudades en numeros random de -2 a 2
     for (int i = 0; i < ciudades; i++){
         ps[0][i] = roy_uniform(-2,2,6);
         ps[1][i] = roy_uniform(-2,2,6);
     }
 
-    // save ps[0] in a file to plot using python
+    // Salvar los datos iniciales para poder graficarlos
     FILE *f = fopen("data/ps.csv", "w");
     for (int i = 0; i < ciudades; i++){
         fprintf(f, "%f, %f\n", ps[0][i], ps[1][i]);
@@ -112,7 +103,7 @@ int main(){
     fclose(f);
     
     /*
-    RECOCIDO SIMULADO BUENO
+                                                    RECOCIDO SIMULADO
     */
 
 
@@ -140,28 +131,28 @@ int main(){
         //
         memcpy(ps_0, ps_m, sizeof(ps));
         for(int i = 0; i<L; i++){
+            //crear ps_1
             memcpy(ps_1, ps_0, sizeof(ps));
+            //evaluar ps_0
             eval_0=dist(ciudades,ps_0);
-            // check if vecindad method does what it is supposed to do
-            //printf("ps_0: %f, %f, %f, %f, %f \n" , ps_0[0][0], ps_0[1][0], ps_0[0][1], ps_0[1][1], ps_0[0][2]);
+            //crear vecindad
             vecindad(ciudades, ps_1);
-            //printf("ps_0: %f, %f, %f, %f, %f \n" , ps_0[0][0], ps_0[1][0], ps_0[0][1], ps_0[1][1], ps_0[0][2]);
+            //evaluar vecindad
             eval_1=dist(ciudades,ps_1);
             
             if (eval_1 < eval_0){
-                // copy array in a memory efficient way
                 memcpy(ps_0, ps_1, sizeof(ps));
                 if (eval_1 < min_dist){
                     min_dist = eval_1;
                     memcpy(ps_m, ps_1, sizeof(ps));
                 }
             }
+            
             else{
                 double r = roy_uniform(0,1,2);
                 double delta = eval_1 - eval_0;
                 double prob = exp(-delta/T_0);
-                if (r < prob){ // si el numero aleatorio es menor que e^(-deltaE/T)
-                    boltzmann++;
+                if (r < prob){
                     memcpy(ps_0, ps_1, sizeof(ps));
                 }
 
@@ -169,19 +160,20 @@ int main(){
             }
 
             }
-    printf("distancia: %f \n", dist(ciudades,ps_m));
+    printf("Distancia: %f \n", dist(ciudades,ps_m));
 
     end = clock();
 
     cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
-    printf("tiempo: %f segundos\n", cpu_time_used);
+    printf("Tiempo: %f segundos\n", cpu_time_used);
 
+    // Guardar resultados finales
     FILE *fooba = fopen("data/ps2.csv", "w");
     for (int i = 0; i < ciudades; i++){
         fprintf(fooba, "%f, %f\n", ps_0[0][i], ps_0[1][i]);
     }
     fclose(fooba);
-    //FILE *fp = popen("/bin/python \"/home/jay/C_testing/Optimization Algorithms/viajeroplotter.py\"", "w");
+    FILE *fp = popen("/usr/bin/python \"/home/jay/c_aber/Optimization Algorithms/viajeroplotter.py\"", "w");
     return 0;
 }
 
