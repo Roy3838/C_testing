@@ -21,6 +21,31 @@ double roy_uniform(double a, double b, double decimales){
 int main(){
     static int ciudades = 100;
 
+   char buffer[1024] ;
+   char *record,*line;
+   int i=0,j=0;
+   double mat[ciudades][ciudades];
+   char *pts;
+   FILE *fstream = fopen("data/ps_read.csv","r");
+   if(fstream == NULL)
+   {
+      printf("\n file opening failed ");
+      return -1 ;
+   }
+   while((line=fgets(buffer,sizeof(buffer),fstream))!=NULL)
+   {
+     record = strtok(line,",");
+     while(record != NULL)
+     {
+     //printf("%s",record) ;    //here you can put the record into the array as per your requirement.
+     mat[i][j++] = atof(record) ;
+     record = strtok(NULL,",");
+     }
+     ++i ;
+   }
+
+
+
     // Metodo que regresa la distancia total recorrida por el viajero
     double dist(int ciudades, double ps[2][ciudades]){
         double distancia = 0;
@@ -90,10 +115,17 @@ int main(){
     */
 
     // Se generan ciudades en numeros random de -2 a 2
+    // for (int i = 0; i < ciudades; i++){
+    //     ps[0][i] = roy_uniform(-2,2,6);
+    //     ps[1][i] = roy_uniform(-2,2,6);
+    // }
+
+    //copiar mat a ciudades mat esta en diagonal
     for (int i = 0; i < ciudades; i++){
-        ps[0][i] = roy_uniform(-2,2,6);
-        ps[1][i] = roy_uniform(-2,2,6);
+        ps[0][i] = mat[i][2*i];
+        ps[1][i] = mat[i][2*i +1];
     }
+    
 
     // Salvar los datos iniciales para poder graficarlos
     FILE *f = fopen("data/ps.csv", "w");
