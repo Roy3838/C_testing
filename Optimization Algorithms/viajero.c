@@ -4,6 +4,7 @@
 #include <time.h>
 #include <malloc.h>
 #include <string.h>
+#include <unistd.h>
 
 double roy_uniform(double a, double b, double decimales){
     /*
@@ -73,17 +74,26 @@ int main(){
         // }
     }
     }
-    
+    // VALORES GANADORES aprox 127.24
+    // double alpha = 0.99;
+    // int L = 1000;
+    // double T_0 = 300;
+    // double T_min = 0.000001;
     double alpha = 0.95;
-    int L = 2000;
-    double T_0 = 3;
-    double T_min = 0.0000001;
-    // test the vecindad method SI FUNCIONO ALV " :D "- Copilot
-    // double a[2][8] = {{1,2,3,4,5,6,7,8},{1,2,3,4,5,6,7,8}};
-    // vecindad(8,a);
-
-    
+    int L = 5000;
+    double T_0 = 300;
+    double T_min = 0.000000001;
     double ps[2][ciudades];
+    srand(time(NULL));
+    clock_t start, end;
+    double cpu_time_used;
+    // test the vecindad method SI FUNCIONO ALV " :D "- Copilot
+
+    /*
+    PARTE DE GENERAR LOS DATOS DE LAS CIUDADES
+    */
+    
+    
     //se generan las ciudades en un circulo
     // for (int i = 0; i < ciudades; i++){
     //     ps[0][i] = cos(2*3.1416*i/ciudades);
@@ -103,10 +113,14 @@ int main(){
     }
     fclose(f);
     
+    /*
+    RECOCIDO SIMULADO BUENO
+    */
 
+
+    // la memoria de las matrices tiene que ser estatica
     double ps_0[2][ciudades];
     double ps_1[2][ciudades];
-    double ps_n[2][ciudades];
     double ps_m[2][ciudades];
     double min_dist = 20000;
     // ps_0=ps;
@@ -115,10 +129,16 @@ int main(){
     
     memcpy(ps_m, ps, sizeof(ps));
     double t_i=T_0;
-    
+    int iter=0;
+    int boltzmann=0;
+    start=clock();
     while(T_0 > T_min){
         T_0=alpha*T_0;
-        printf("percentage: %f \n", 100-(T_0/t_i));
+        iter++;
+        if (iter%10==0){
+            printf("iter: %d, T_0: %f, min_dist: %f b_g: %d\n", iter, T_0*1000, min_dist, boltzmann);
+        }
+        //
         memcpy(ps_0, ps_m, sizeof(ps));
         for(int i = 0; i<L; i++){
             memcpy(ps_1, ps_0, sizeof(ps));
@@ -142,6 +162,7 @@ int main(){
                 double delta = eval_1 - eval_0;
                 double prob = exp(-delta/T_0);
                 if (r < prob){ // si el numero aleatorio es menor que e^(-deltaE/T)
+                    boltzmann++;
                     memcpy(ps_0, ps_1, sizeof(ps));
                 }
 
@@ -149,14 +170,17 @@ int main(){
             }
 
             }
-    printf("distancia: %f \n", dist(ciudades,ps_0));
-
+    printf("distancia: %f \n", dist(ciudades,ps_m));
+    end = clock();
+    cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
+    printf("tiempo: %f segundos\n", cpu_time_used);
 
     FILE *fooba = fopen("data/ps2.csv", "w");
     for (int i = 0; i < ciudades; i++){
         fprintf(fooba, "%f, %f\n", ps_0[0][i], ps_0[1][i]);
     }
     fclose(fooba);
+    FILE *fp = popen("/bin/python \"/home/jay/C_testing/Optimization Algorithms/viajeroplotter.py\"", "w");
     return 0;
 }
 
