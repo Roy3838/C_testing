@@ -3,6 +3,7 @@
 #include <math.h>
 #include <time.h>
 #include <malloc.h>
+#include <string.h>
 
 double roy_uniform(double a, double b, double decimales){
     /*
@@ -16,77 +17,73 @@ double roy_uniform(double a, double b, double decimales){
     return m;
 }
 
-//funcion de distancia total
-double f_x_y(double puntoss[][]){
+
+
+int main(){
     
+    double dist(double ps[2][4]){
+        double dist = 0;
+        dist = sqrt(pow((ps[1][0]-ps[0][0]),2)+pow((ps[1][1]-ps[0][1]),2));
+        for (int i = 1; i < ciudades; i++){
+            dist = dist + sqrt(pow(ps[i][0]-ps[i+1][0],2)+pow(ps[i][1]-ps[i+1][1],2));
+        }
+        return dist;
+    }
 
-    return 0;
+    double vecindad(double ps[2][4]){
+        //random index swap
+        int i = rand() % (int)(ciudades-1) + 1;
+        int j = rand() % (int)(ciudades-1) + 1;
+        double tempx=ps[0][i];
+        double tempy=ps[1][i];
+        ps[0][i]=ps[0][j];
+        ps[1][i]=ps[1][j];
+        ps[0][j]=tempx;
+        ps[1][j]=tempy;
+        return ps;
+    }
+    
+    double alpha = 0.99;
+    int L = 100;
+    double T_0 = 389;
+    double T_min = 0.01;
 
-}
 
-double *repoios_recocidos(double alpha, int L, double T_0, double T_min, int seed){
-    //dynamically allocate memory using malloc()
-    double *ret = (double *)malloc(2 * sizeof(double));
+    static int ciudades = 4;
+    double ps[2][ciudades];
+    //se generan las ciudades en un circulo
+    for (int i = 0; i < ciudades; i++){
+        ps[0][i] = cos(2*3.1416*i/ciudades);
+        ps[1][i] = sin(2*3.1416*i/ciudades);
+    }
 
-    // Simulated Annealing
-    srand(seed);
-    double x_0 = roy_uniform(-50,50,5);
-    double y_0 = roy_uniform(-50,50,5);
-    double p_0[] = {x_0,y_0};
-
-    double p_1[] = {p_0[0] ,p_0[1]};
-    // double alpha = 0.99;
-    // int L = 100;
-    // double T_0 = 389;
-    // double T_min = 0.01;
-
+    double ps_0[2][ciudades];
+    double ps_1[2][ciudades];
+    ps_0=ps;
+    
     while(T_0 > T_min){
         T_0=alpha*T_0;
         for(int i = 0; i<L; i++){
-            // double x_1 = (rand()%10000)*0.0001 - 0.5; // = uniform(-0.5,0.5) pero con 0.01 
-            // double y_1 = (rand()%10000)*0.0001 - 0.5;
-            double x_1 = roy_uniform(-0.5,0.5,5);
-            double y_1 = roy_uniform(-0.5,0.5,5);
-            double p_1[] = {p_0[0] + x_1 ,p_0[1] + y_1};
-            double valor_p_1 = f_x_y(p_1[0],p_1[1]);
-            double valor_p_0 = f_x_y(p_0[0],p_0[1]);
+            ps_1 = ps_0
+            double eval_0=dist(ps_0);
+            ps_1 = vecindad(ps_1);
+            double eval_1=dist(ps_1);
             
-            if (valor_p_1 < valor_p_0){
-                p_0[0] = p_1[0];
-                p_0[1] = p_1[1];
+            if (eval_1<eval_0){
+                // copy array in a memory efficient way
+                memcpy(ps_0, ps_1, sizeof(ps_0));
             }
-            else{
-                double r = roy_uniform(0,1,2); // numero aleatorio entre 0 y 1
-                double e = exp((valor_p_0 - valor_p_1)/T_0); // e^(-deltaE/T)
-                if (r < e){ // si el numero aleatorio es menor que e^(-deltaE/T)
-                    p_0[0] = p_1[0]; // se acepta el nuevo punto
-                    p_0[1] = p_1[1];
-                }
-            }
+            // else{
+                
+            //     if (r < e){ // si el numero aleatorio es menor que e^(-deltaE/T)
+                    
+            //     }
+            // }
 
             }
 
         }
     
-    ret[0] = p_0[0];
-    ret[1] = p_0[1];
-    return ret;
-}
-
-
-
-int main(){
-    double alpha = 0.9;
-    double L = 500;
-    double T_0 = 150.0;
-    double T_min = 0.001;
-    int time_seed= time(NULL);
-
-
-    double *p_0 = repoios_recocidos(alpha,L,T_0,T_min,time_seed);
-    printf("x: %f",p_0[0]);
-
-
-
     return 0;
 }
+
