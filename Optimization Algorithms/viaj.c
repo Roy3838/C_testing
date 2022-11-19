@@ -19,7 +19,7 @@ double roy_uniform(double a, double b, double decimales){
 }
 
 int main(){
-    static int ciudades = 100;
+    static int ciudades = 5;
 
    char buffer[1024] ;
    char *record,*line;
