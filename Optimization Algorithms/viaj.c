@@ -5,6 +5,7 @@
 #include <malloc.h>
 #include <string.h>
 #include <unistd.h>
+#include <stdbool.h>
 
 double roy_uniform(double a, double b, double decimales){
     /*
@@ -26,22 +27,31 @@ int main(){
    int i=0,j=0;
    double mat[ciudades][ciudades];
    char *pts;
-   FILE *fstream = fopen("data/ps_read.csv","r");
-   if(fstream == NULL)
-   {
-      printf("\n file opening failed ");
-      return -1 ;
-   }
-   while((line=fgets(buffer,sizeof(buffer),fstream))!=NULL)
-   {
-     record = strtok(line,",");
-     while(record != NULL)
-     {
-     //printf("%s",record) ;    //here you can put the record into the array as per your requirement.
-     mat[i][j++] = atof(record) ;
-     record = strtok(NULL,",");
-     }
-     ++i ;
+   bool File_not_found=true;
+
+   while(File_not_found){
+
+    FILE *fstream = fopen("data/ps_read.csv","r");
+        if(fstream == NULL)
+        {
+            printf("\n file opening failed ");
+            sleep(1);
+        }
+        else{
+        while((line=fgets(buffer,sizeof(buffer),fstream))!=NULL)
+        {
+            File_not_found=false;
+            record = strtok(line,",");
+            while(record != NULL)
+            {
+            //printf("%s",record) ;    //here you can put the record into the array as per your requirement.
+            mat[i][j++] = atof(record) ;
+            record = strtok(NULL,",");
+            }
+            ++i ;
+        }
+        }
+
    }
 
 
@@ -205,7 +215,7 @@ int main(){
         fprintf(fooba, "%f, %f\n", ps_0[0][i], ps_0[1][i]);
     }
     fclose(fooba);
-    FILE *fp = popen("/usr/bin/python \"/home/jay/c_aber/Optimization Algorithms/viajeroplotter.py\"", "w");
+    FILE *fp = popen("/usr/bin/python \"/home/jay/C_testing/Optimization Algorithms/viajeroplotter.py\"", "w");
     return 0;
 }
 
