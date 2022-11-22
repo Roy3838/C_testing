@@ -18,14 +18,25 @@ int main(){
     int puntos = 100;
     float x[puntos];
     int ciclos = 1000;
-    float x_n[puntos];
+    float y_n[puntos];
+    float sum_y = 0;
+    float p_n[puntos];
 
     // genetic algorithm to optimize function
     for(int i=1; i<ciclos; i++){
         //evaluar x[]
         for(int k=0; k<puntos; k++){
-            x_n[k]=f(x[k])
+            y_n[k]= f(x[k]) + 3.7
+            sum_y += y_n[k];
         }
+        for(int m=0; m<puntos; m++){
+            p_n[m] = y_n[m]/sum_y;
+        }
+        //seleccionar x[] usando como probabilidades p_n[]
+        
+
+        
+
 
 
 
