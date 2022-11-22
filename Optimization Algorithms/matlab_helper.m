@@ -8,7 +8,8 @@ while(1)
     disp("matrix written")
     pause(10)
     catch
-        warning('Error using load')
+        % print error and time of error
+        warning('Error using load on ____'  + string(datetime('now')))
         pause(0.5)
     end
 end

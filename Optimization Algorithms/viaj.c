@@ -34,7 +34,7 @@ int main(){
     FILE *fstream = fopen("data/ps_read.csv","r");
         if(fstream == NULL)
         {
-            printf("\n file opening failed ");
+            printf("\n file opening failed");
             sleep(1);
         }
         else{
