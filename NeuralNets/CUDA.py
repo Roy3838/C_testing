@@ -3,6 +3,7 @@ from torchvision import datasets, transforms
 import psutil
 import time
 
+"""     CARGA DE DATOS   SACADO DE https://towardsdatascience.com/handwritten-digit-mnist-pytorch-977b5338e627"""   
 transform = transforms.Compose([transforms.ToTensor(),
                               transforms.Normalize((0.5,), (0.5,)),
                               ])
@@ -16,7 +17,10 @@ images, labels = next(iter(trainloader))
 images = images.view(images.shape[0], -1).cuda()
 
 
-N, D_in, H, out, D_out = 3, 784, 128, 64, 10
+
+"""     DISEÑO DE LA RED  AUTOR: ROY MEDINA """
+
+N, D_in, H, out, D_out = 3, 784, 784, 28, 10
 model = torch.nn.Sequential(torch.nn.Linear(D_in, H),
                       torch.nn.ReLU(),
                       torch.nn.Linear(H, out),
@@ -33,10 +37,8 @@ static_target = torch.zeros(N, D_out, device='cuda')
 for i in range(N):
     static_target[i][labels[i]] = 1
 
-
 loss_fn = torch.nn.MSELoss()
 optimizer = torch.optim.SGD(model.parameters(), lr=0.1)
-
 
 s = torch.cuda.Stream()
 s.wait_stream(torch.cuda.current_stream())
@@ -80,7 +82,7 @@ for i in range(N):
 
 tiempo1 = time.time()
 print("starting training")
-iterations = 6
+iterations = 2
 for i in range(iterations):
     for data, target in zip(real_inputs, real_targets):
         # Fills the graph's input memory with new data to compute on
@@ -92,7 +94,12 @@ for i in range(iterations):
     print("Iteration : {}/{} ".format(i+1,iterations))
 print("Training Time: " + str(time.time() - tiempo1))
 
-"""     EVALUAR MODELO  """   
+
+
+
+
+"""     EVALUAR MODELO   SACADO DE https://towardsdatascience.com/handwritten-digit-mnist-pytorch-977b5338e627"""   
+
 images, labels = next(iter(valloader))
 images.cuda()
 labels.cuda()
