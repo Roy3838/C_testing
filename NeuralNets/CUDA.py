@@ -40,6 +40,10 @@ for i in range(N):
 loss_fn = torch.nn.MSELoss()
 optimizer = torch.optim.SGD(model.parameters(), lr=0.1)
 
+"""             GPU CATCH               """
+
+print("Attempting GPU Catch")
+
 s = torch.cuda.Stream()
 s.wait_stream(torch.cuda.current_stream())
 with torch.cuda.stream(s):
@@ -61,10 +65,12 @@ with torch.cuda.graph(g):
     static_loss.backward()
     optimizer.step()
 
+"""                     TRAINING            """
 
 N = 64*160*4
 
-print("loading dataset")
+print("GPU Catched, Loading Dataset")
+
 trainset = datasets.MNIST('PATH_TO_STORE_TRAINSET', download=True, train=True, transform=transform)
 valset = datasets.MNIST('PATH_TO_STORE_TESTSET', download=True, train=False, transform=transform)
 trainloader = torch.utils.data.DataLoader(trainset, batch_size=N, shuffle=True)
@@ -75,13 +81,15 @@ images, labels = next(iter(trainloader))
 images = images.view(images.shape[0], -1)
 real_inputs = images[:N].cuda()
 real_targets = torch.zeros(N, D_out, device='cuda')
-print("dataset loaded")
+
+print("Dataset Loaded, Starting Training")
 
 for i in range(N):
     real_targets[i][labels[i]] = 1
 
 tiempo1 = time.time()
-print("starting training")
+
+# MAIN TRAINING LOOP
 iterations = 2
 for i in range(iterations):
     for data, target in zip(real_inputs, real_targets):

@@ -23,7 +23,7 @@ valloader = torch.utils.data.DataLoader(valset, batch_size=64, shuffle=True)
 
 input_size = 784
 #hidden_sizes = [128, 64]
-hidden_sizes = [784, 784]
+hidden_sizes = [784, 784] # saldaslkdaskd
 output_size = 10
 
 model = nn.Sequential(nn.Linear(input_size, hidden_sizes[0]),
