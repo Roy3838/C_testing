@@ -1,0 +1,7 @@
+int main(){
+
+	printf("MIRA LA SUMA KARY ALV , %f", 2.0+2.0);
+
+	return 1;
+
+}
