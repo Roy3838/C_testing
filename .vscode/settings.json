@@ -10,7 +10,8 @@
         "complex": "c",
         "stdatomic.h": "c",
         "hash_map": "c",
-        "time.h": "c"
+        "time.h": "c",
+        "cstdlib": "c"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }

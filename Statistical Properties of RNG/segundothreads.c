@@ -2,8 +2,6 @@
 #include <stdlib.h>
 #include <math.h>
 #include <time.h>
-#include <stdatomic.h>
-#include <pthread.h>
  
 int main()
 {
@@ -39,11 +37,6 @@ int correr(){
     for (int i=0; i<N; i++){
         sum += dist[i];
     }
-    double prom = sum/N;
-    printf("%f\n", prom);
-
-
-    
 
     end = clock();
     cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
