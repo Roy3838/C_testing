@@ -1,0 +1,112 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include <time.h>
+
+#define POPULATION_SIZE 10
+#define NUM_ITERATIONS 100
+#define MUTATION_RATE 0.1
+
+// Ya se usar structs xd :D
+typedef struct {
+  double x[7];
+  double fitness;
+} Individual;
+
+Individual population[POPULATION_SIZE];
+
+// Se genera un valor aleatorio
+double roy_uniform() {
+  return ((double)rand() / RAND_MAX) * 20 - 10;
+}
+
+// Funcion de fitness
+double f_x(Individual individual) {
+  double result = 0;
+  for (int i = 0; i < 6; i++) {
+    result += 100 * pow(individual.x[i + 1] - pow(individual.x[i], 2), 2) + pow(1 - individual.x[i], 2);
+  }
+  return result;
+}
+
+// Se selecciona los individuos con una probabilidad proporcional a su fitness
+Individual seleccionar() {
+  double totalFitness = 0;
+  for (int i = 0; i < POPULATION_SIZE; i++) {
+    totalFitness += population[i].fitness;
+  }
+
+  double target = ((double)rand() / RAND_MAX) * totalFitness;
+  double current = 0;
+  for (int i = 0; i < POPULATION_SIZE; i++) {
+    current += population[i].fitness;
+    if (current >= target) {
+      return population[i];
+    }
+  }
+  return population[POPULATION_SIZE - 1]; // Si mama agarra uno random 
+}
+
+// Proceso principal de una sola poblacion
+void nueva_poblacion() {
+  Individual newPopulation[POPULATION_SIZE];
+
+  for (int i = 0; i < POPULATION_SIZE; i++) {
+    // Se seleccionan dos padres
+    Individual papa1 = seleccionar();
+    Individual papa2 = seleccionar();
+
+    // Cruza usando interpolacion real entre padre e hijo.
+    Individual lalo; // mi hijo lalo
+    for (int j = 0; j < 7; j++) {
+      lalo.x[j] = (papa1.x[j] + papa2.x[j]) / 2;
+    }
+
+    // Perform mutation by adding a random value between -1 and 1 to each x value
+    for (int j = 0; j < 7; j++) {
+      if (((double)rand() / RAND_MAX) <= MUTATION_RATE) {
+        lalo.x[j] += ((double)rand() / RAND_MAX) * 2 - 1;
+      }
+    }
+
+    // Calculate the fitness of the child
+    lalo.fitness = f_x(lalo);
+
+    // Add the child to the new population
+    newPopulation[i] = lalo;
+  }
+
+  // Replace the old population with the new population
+  for (int i = 0; i < POPULATION_SIZE; i++) {
+    population[i] = newPopulation[i];
+  }
+}
+
+int main() {
+  // Seed the random number generator
+    srand(time(NULL));
+    // run the genetical algorithm
+    for (int i = 0; i < NUM_ITERATIONS; i++) {
+        // generate the population
+        for (int j = 0; j < POPULATION_SIZE; j++) {
+            for (int k = 0; k < 7; k++) {
+                population[j].x[k] = roy_uniform();
+            }
+            population[j].fitness = f_x(population[j]);
+        }
+        // generate the new population
+        nueva_poblacion();
+    }
+    // print the best individual
+    Individual best = population[0];
+    for (int i = 1; i < POPULATION_SIZE; i++) {
+        if (population[i].fitness < best.fitness) {
+            best = population[i];
+        }
+    }
+    printf("Soluciones: ");
+    for (int i = 0; i < 7; i++) {
+        printf("%f ", best.x[i]);
+    }
+    printf("")
+}
