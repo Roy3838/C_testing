@@ -19,23 +19,17 @@ double roy_uniform(double a, double b, double d){
 }
 
 int main(){
-    static int n = 5;
+    static int n = 7;
 
 
     // Se tiene esta funcion de optimizacion
     double dist(int n, double x[1][n]){
-        double x_sum = 0;
 
-        double c[5] = {0.1, 0.2, 0.2, 0.4, 0.4};
-        double A[5][4] = {{4,4,4,4},{1,1,1,1},{8,8,8,8},{6,6,6,6},{3,7,3,7}};
-
-        for(int i = 0; i < 5; i++){
-            for(int j = 0; j<n; j++){
-                double div = 1/(pow(2,abs(x[0][j]-A[i][j])) + c[i]);
-                x_sum += div;
-            }
+        double result = 0;
+        for (int i = 0; i < 6; i++) {
+            result += 100 * pow(x[0][i + 1] - pow(x[0][i], 2), 2) + pow(1 - x[0][i], 2);
         }
-        return -x_sum;
+        return result;
     }
 
     // Y se crea una funcion que crea un vector vecino a x[]

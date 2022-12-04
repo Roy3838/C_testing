@@ -62,7 +62,7 @@ int main(){
 
     static int n = 5;
 
-    float dist(int n, float x[1][n]){
+    float dist(int seleccion, int n, float x[seleccion][n]){
         float x_sum = 0;
 
         float c[5] = {0.1, 0.2, 0.2, 0.4, 0.4};
@@ -70,10 +70,11 @@ int main(){
 
         for(int i = 0; i < 5; i++){
             for(int j = 0; j<n; j++){
-                float div = 1/(pow(2,abs(x[0][j]-A[i][j])) + c[i]);
+                float div = 1/(pow(2,abs(x[seleccion][j]-A[i][j])) + c[i]);
                 x_sum += div;
             }
         }
+        x_sum = 1/(1+exp(-x_sum));
         return x_sum;
     }
 
@@ -104,7 +105,7 @@ int main(){
         for(int k=0; k<seleccion/2; k++){
             // for the case of NaN
             //if(-10<x[k] && x[k]<10)
-            y_n[k]= sigmoid( dist( n, x[k] ));
+            y_n[k]= dist( seleccion/2,n, x[k][n] );
             //else
             if(k==0)
                 cumsum[k] = y_n[k];
